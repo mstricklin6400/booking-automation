@@ -263,13 +263,10 @@ def run_automation_thread():
         # Log current config for debugging
         logger.info(f"Starting automation with Google Sheet URL: {config.GOOGLE_SHEET_URL}")
         
-        # Use working browser automation for real browser interaction
-        from working_browser_automation import WorkingBrowserAutomation
-        working_automation = WorkingBrowserAutomation(config)
-        stats = loop.run_until_complete(working_automation.run())
-        
-        automation_status['message'] = f'Working automation completed: {stats["successful_bookings"]} successful, {stats["failed_bookings"]} failed'
-        
+               # Use HTTP-based automation (no browser required)
+        from automation import BookingAutomation
+        booking_automation = BookingAutomation(config)
+        stats = loop.run_until_complete(booking_automation.run())
         automation_status['message'] = 'Automation completed successfully'
         logger.info("Automation completed successfully")
         
