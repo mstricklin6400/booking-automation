@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Automation Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar -->
+            <nav class="col-md-3 col-lg-2 d-md-block bg-light sidebar">
+                <div class="position-sticky pt-3">
+                    <h4 class="mb-3">Booking Automation</h4>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#dashboard" data-tab="dashboard">
+                                <i data-feather="home"></i>
+                                Dashboard
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#preview" data-tab="preview">
+                                <i data-feather="eye"></i>
+                                Data Preview
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#config" data-tab="config">
+                                <i data-feather="settings"></i>
+                                Configuration
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#email-config" data-tab="email-config">
+                                <i data-feather="mail"></i>
+                                Email Notifications
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#logs" data-tab="logs">
+                                <i data-feather="file-text"></i>
+                                Logs
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- Main content -->
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                <!-- Dashboard Tab -->
+                <div id="dashboard" class="tab-content active">
+                    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                        <h1 class="h2">Dashboard</h1>
+                        <div class="btn-toolbar mb-2 mb-md-0">
+                            <button id="refreshBtn" class="btn btn-sm btn-outline-secondary me-2">
+                                <i data-feather="refresh-cw"></i> Refresh
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Status Card -->
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5 class="card-title mb-0">Automation Status</h5>
+                                </div>
+                                <div class="card-body">
+                                    <div id="statusDisplay" class="d-flex align-items-center mb-3">
+                                        <div id="statusIcon" class="me-2"></div>
+                                        <div>
+                                            <div id="statusText">Loading...</div>
+                                            <small id="lastRunText" class="text-muted"></small>
+                                        </div>
+                                    </div>
+                                    <button id="startBtn" class="btn btn-primary" disabled>
+                                        <i data-feather="play"></i> Start Automation
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5 class="card-title mb-0">Quick Actions</h5>
+                                </div>
+                                <div class="card-body">
+                                    <button id="previewBtn" class="btn btn-outline-primary btn-sm mb-2 w-100">
+                                        <i data-feather="eye"></i> Preview Data
+                                    </button>
+                                    <button id="configBtn" class="btn btn-outline-secondary btn-sm w-100">
+                                        <i data-feather="settings"></i> Configuration
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Enhanced Automation Controls -->
+                    <div class="card mt-3">
+                        <div class="card-header">
+                            <h5 class="card-title">🚀 Enhanced Automation Options</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="alert alert-info">
+                                <strong>Advanced Features:</strong> Multi-browser support, concurrent processing, retry logic, CAPTCHA detection, and detailed logging.
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="mb-3">
+                                        <label for="browser-type" class="form-label">Browser Type</label>
+                                        <select class="form-control" id="browser-type">
+                                            <option value="chromium">🌐 Chromium (Default)</option>
+                                            <option value="firefox">🦊 Firefox</option>
+                                            <option value="webkit">🧭 WebKit (Safari-like)</option>
+                                        </select>
+                                        <div class="form-text">Choose which browser engine to use</div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-4">
+                                    <div class="mb-3">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="enhanced-headless" checked>
+                                            <label class="form-check-label" for="enhanced-headless">
+                                                Headless Mode
+                                            </label>
+                                        </div>
+                                        <div class="form-text">Uncheck to see browser window</div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-4">
+                                    <div class="mb-3">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="concurrent-processing">
+                                            <label class="form-check-label" for="concurrent-processing">
+                                                Concurrent Processing
+                                            </label>
+                                        </div>
+                                        <div class="form-text">Process multiple bookings simultaneously</div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <button type="button" class="btn btn-info me-2" id="preview-automation-btn">
+                                <i data-feather="eye"></i> Preview Automation
+                            </button>
+                            <button type="button" class="btn btn-success" id="start-enhanced-btn">
+                                <i data-feather="zap"></i> Start Enhanced Automation
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Data Preview Tab -->
+                <div id="preview" class="tab-content">
+                    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                        <h1 class="h2">Data Preview</h1>
+                        <button id="loadPreviewBtn" class="btn btn-sm btn-primary">
+                            <i data-feather="download"></i> Load Data
+                        </button>
+                    </div>
+
+                    <div id="previewContent">
+                        <div class="text-center py-5">
+                            <i data-feather="database" class="text-muted mb-3" style="width: 48px; height: 48px;"></i>
+                            <p class="text-muted">Click "Load Data" to preview Google Sheets data</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Configuration Tab -->
+                <div id="config" class="tab-content">
+                    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                        <h1 class="h2">Configuration</h1>
+                        <button id="saveConfigBtn" class="btn btn-sm btn-success">
+                            <i data-feather="save"></i> Save Configuration
+                        </button>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-8">
+                            <form id="configForm">
+                                <div class="mb-3">
+                                    <label for="googleSheetUrl" class="form-label">Google Sheet URL</label>
+                                    <input type="url" class="form-control" id="googleSheetUrl" placeholder="https://docs.google.com/spreadsheets/d/...">
+                                    <div class="form-text">URL of the Google Sheet containing booking data</div>
+                                </div>
+                                
+                                <div class="mb-3">
+                                    <label for="bookingUrl" class="form-label">Booking URL</label>
+                                    <input type="url" class="form-control" id="bookingUrl" readonly>
+                                    <div class="form-text">LeadConnector booking page URL (read-only)</div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="headlessMode">
+                                                <label class="form-check-label" for="headlessMode">
+                                                    Headless Mode
+                                                </label>
+                                            </div>
+                                            <div class="form-text">Run browser automation in the background</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label for="delayBetweenBookings" class="form-label">Delay Between Bookings (seconds)</label>
+                                            <input type="number" class="form-control" id="delayBetweenBookings" min="1" max="60">
+                                            <div class="form-text">Delay to avoid rate limiting</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Email Configuration Tab -->
+                <div id="email-config" class="tab-content">
+                    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                        <h1 class="h2">📧 Email Notifications</h1>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5 class="card-title">Email Notification Settings</h5>
+                                </div>
+                                <div class="card-body">
+                                    <div class="alert alert-info">
+                                        <strong>Configure email notifications:</strong> Get notified when bookings are successful or fail. 
+                                        For Gmail, use an App Password instead of your regular password.
+                                    </div>
+                                    
+                                    <div class="mb-3">
+                                        <label for="email-user" class="form-label">Email Address</label>
+                                        <input type="email" class="form-control" id="email-user" placeholder="your-email@gmail.com">
+                                        <div class="form-text">Your Gmail or SMTP email address</div>
+                                    </div>
+                                    
+                                    <div class="mb-3">
+                                        <label for="email-password" class="form-label">App Password</label>
+                                        <input type="password" class="form-control" id="email-password" placeholder="16-character app password">
+                                        <div class="form-text">
+                                            <a href="https://support.google.com/accounts/answer/185833" target="_blank">
+                                                How to create Gmail App Password
+                                            </a>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="mb-3">
+                                        <label for="notification-recipients" class="form-label">Notification Recipients</label>
+                                        <input type="text" class="form-control" id="notification-recipients" 
+                                               placeholder="email1@example.com, email2@example.com">
+                                        <div class="form-text">Comma-separated list of email addresses to receive notifications</div>
+                                    </div>
+                                    
+                                    <div class="d-flex gap-2">
+                                        <button type="button" class="btn btn-primary" id="save-email-btn">
+                                            <i data-feather="save"></i> Save Configuration
+                                        </button>
+                                        <button type="button" class="btn btn-info" id="test-email-btn">
+                                            <i data-feather="mail"></i> Send Test Email
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h6 class="card-title">Email Types</h6>
+                                </div>
+                                <div class="card-body">
+                                    <ul class="list-unstyled">
+                                        <li class="mb-2">
+                                            <i data-feather="check-circle" class="text-success"></i>
+                                            <strong>Success Notifications:</strong> Sent when bookings are confirmed
+                                        </li>
+                                        <li class="mb-2">
+                                            <i data-feather="alert-triangle" class="text-warning"></i>
+                                            <strong>Failure Notifications:</strong> Sent when bookings fail
+                                        </li>
+                                        <li class="mb-2">
+                                            <i data-feather="bar-chart" class="text-info"></i>
+                                            <strong>Summary Reports:</strong> Sent after automation runs complete
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Logs Tab -->
+                <div id="logs" class="tab-content">
+                    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                        <h1 class="h2">Logs</h1>
+                        <button id="refreshLogsBtn" class="btn btn-sm btn-outline-secondary">
+                            <i data-feather="refresh-cw"></i> Refresh
+                        </button>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-body">
+                            <div id="logsContent" class="font-monospace small" style="height: 400px; overflow-y: auto; background-color: #f8f9fa; padding: 1rem; border-radius: 0.375rem;">
+                                <div class="text-center text-muted">
+                                    Logs will appear here when automation runs...
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- Alert container -->
+    <div id="alertContainer" class="position-fixed top-0 end-0 p-3" style="z-index: 1050;"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js"></script>
+    <script>
+        // Initialize Feather icons
+        feather.replace();
+
+        // Tab navigation
+        document.querySelectorAll('[data-tab]').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const tabName = e.target.closest('[data-tab]').getAttribute('data-tab');
+                showTab(tabName);
+            });
+        });
+
+        function showTab(tabName) {
+            // Hide all tabs
+            document.querySelectorAll('.tab-content').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            
+            // Show selected tab
+            document.getElementById(tabName).classList.add('active');
+            
+            // Update navigation
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.classList.remove('active');
+            });
+            document.querySelector(`[data-tab="${tabName}"]`).classList.add('active');
+        }
+
+        // Status management
+        let statusInterval;
+
+        function updateStatus() {
+            fetch('/api/status')
+                .then(response => response.json())
+                .then(data => {
+                    const statusIcon = document.getElementById('statusIcon');
+                    const statusText = document.getElementById('statusText');
+                    const lastRunText = document.getElementById('lastRunText');
+                    const startBtn = document.getElementById('startBtn');
+
+                    if (data.running) {
+                        statusIcon.innerHTML = '<div class="spinner-border spinner-border-sm text-primary"></div>';
+                        statusText.textContent = data.message || 'Running...';
+                        startBtn.disabled = true;
+                        startBtn.innerHTML = '<i data-feather="loader"></i> Running...';
+                    } else {
+                        statusIcon.innerHTML = '<i data-feather="check-circle" class="text-success"></i>';
+                        statusText.textContent = data.message || 'Ready';
+                        startBtn.disabled = false;
+                        startBtn.innerHTML = '<i data-feather="play"></i> Start Automation';
+                    }
+
+                    if (data.last_run) {
+                        const lastRun = new Date(data.last_run);
+                        lastRunText.textContent = `Last run: ${lastRun.toLocaleString()}`;
+                    }
+
+                    feather.replace();
+                })
+                .catch(error => {
+                    console.error('Error fetching status:', error);
+                    showAlert('Error fetching status', 'danger');
+                });
+        }
+
+        // Start automation
+        document.getElementById('startBtn').addEventListener('click', () => {
+            fetch('/api/start', { method: 'POST' })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.error) {
+                        showAlert(data.error, 'danger');
+                    } else {
+                        showAlert(data.message, 'success');
+                        updateStatus();
+                    }
+                })
+                .catch(error => {
+                    console.error('Error starting automation:', error);
+                    showAlert('Error starting automation', 'danger');
+                });
+        });
+
+        // Preview data
+        document.getElementById('loadPreviewBtn').addEventListener('click', loadPreview);
+        document.getElementById('previewBtn').addEventListener('click', () => {
+            showTab('preview');
+            loadPreview();
+        });
+
+        function loadPreview() {
+            const previewContent = document.getElementById('previewContent');
+            previewContent.innerHTML = '<div class="text-center py-3"><div class="spinner-border"></div><p class="mt-2">Loading data...</p></div>';
+
+            fetch('/api/preview')
+                .then(response => response.json())
+                .then(data => {
+                    if (data.error) {
+                        previewContent.innerHTML = `<div class="alert alert-danger">${data.error}</div>`;
+                        return;
+                    }
+
+                    let html = `
+                        <div class="mb-3">
+                            <span class="badge bg-primary">Total Rows: ${data.total_rows}</span>
+                            <span class="badge bg-secondary">Preview: ${data.preview_rows.length}</span>
+                        </div>
+                        <div class="table-responsive">
+                            <table class="table table-striped table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Email</th>
+                                        <th>Company</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                    `;
+
+                    data.preview_rows.forEach(row => {
+                        const statusClass = row.status.toLowerCase() === 'done' ? 'text-success' : 'text-muted';
+                        html += `
+                            <tr>
+                                <td>${row.name || '-'}</td>
+                                <td>${row.email || '-'}</td>
+                                <td>${row.company || '-'}</td>
+                                <td><span class="${statusClass}">${row.status || 'pending'}</span></td>
+                            </tr>
+                        `;
+                    });
+
+                    html += '</tbody></table></div>';
+                    previewContent.innerHTML = html;
+                })
+                .catch(error => {
+                    console.error('Error loading preview:', error);
+                    previewContent.innerHTML = '<div class="alert alert-danger">Error loading data preview</div>';
+                });
+        }
+
+        // Configuration management
+        document.getElementById('configBtn').addEventListener('click', () => {
+            showTab('config');
+            loadConfig();
+        });
+
+        function loadConfig() {
+            fetch('/api/config')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('googleSheetUrl').value = data.google_sheet_url || '';
+                    document.getElementById('bookingUrl').value = data.booking_url || '';
+                    document.getElementById('headlessMode').checked = data.headless_mode || false;
+                    document.getElementById('delayBetweenBookings').value = data.delay_between_bookings || 5;
+                })
+                .catch(error => {
+                    console.error('Error loading config:', error);
+                    showAlert('Error loading configuration', 'danger');
+                });
+        }
+
+        document.getElementById('saveConfigBtn').addEventListener('click', () => {
+            const config = {
+                google_sheet_url: document.getElementById('googleSheetUrl').value,
+                headless_mode: document.getElementById('headlessMode').checked,
+                delay_between_bookings: parseInt(document.getElementById('delayBetweenBookings').value)
+            };
+
+            fetch('/api/config', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(config)
+            })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.error) {
+                        showAlert(data.error, 'danger');
+                    } else {
+                        showAlert(data.message, 'success');
+                    }
+                })
+                .catch(error => {
+                    console.error('Error saving config:', error);
+                    showAlert('Error saving configuration', 'danger');
+                });
+        });
+
+        // Utility functions
+        function showAlert(message, type = 'info') {
+            const alertContainer = document.getElementById('alertContainer');
+            const alertDiv = document.createElement('div');
+            alertDiv.className = `alert alert-${type} alert-dismissible fade show`;
+            alertDiv.innerHTML = `
+                ${message}
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            `;
+            alertContainer.appendChild(alertDiv);
+
+            // Auto-remove after 5 seconds
+            setTimeout(() => {
+                if (alertDiv.parentNode) {
+                    alertDiv.remove();
+                }
+            }, 5000);
+        }
+
+        // Refresh buttons
+        document.getElementById('refreshBtn').addEventListener('click', updateStatus);
+
+        // Initialize
+        updateStatus();
+        statusInterval = setInterval(updateStatus, 5000); // Update every 5 seconds
+
+        // Load initial config
+        loadConfig();
+    </script>
+</body>
+</html>

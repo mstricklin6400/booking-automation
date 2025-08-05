@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: booking-automation
+    env: python
+    buildCommand: "pip install flask gunicorn playwright gspread oauth2client requests beautifulsoup4"
+    startCommand: "python3 main.py"
+    healthCheckPath: "/health"

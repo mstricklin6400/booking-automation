@@ -1,0 +1,139 @@
+<!-- Enhanced Automation Controls -->
+<div class="card mt-3">
+    <div class="card-header">
+        <h5 class="card-title">🚀 Enhanced Automation Options</h5>
+    </div>
+    <div class="card-body">
+        <div class="alert alert-info">
+            <strong>Advanced Features:</strong> Multi-browser support, concurrent processing, retry logic, CAPTCHA detection, and detailed logging.
+        </div>
+        
+        <form id="enhanced-automation-form">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="mb-3">
+                        <label for="browser-type" class="form-label">Browser Type</label>
+                        <select class="form-control" id="browser-type" required>
+                            <option value="chromium">🌐 Chromium (Default)</option>
+                            <option value="firefox">🦊 Firefox</option>
+                            <option value="webkit">🧭 WebKit (Safari-like)</option>
+                        </select>
+                        <div class="form-text">Choose which browser engine to use</div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="mb-3">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="enhanced-headless" checked>
+                            <label class="form-check-label" for="enhanced-headless">
+                                Headless Mode
+                            </label>
+                        </div>
+                        <div class="form-text">Uncheck to see browser window (slower but visible)</div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="mb-3">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="concurrent-processing">
+                            <label class="form-check-label" for="concurrent-processing">
+                                Concurrent Processing
+                            </label>
+                        </div>
+                        <div class="form-text">Process multiple bookings simultaneously (faster)</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-12">
+                    <h6>Enhanced Features Included:</h6>
+                    <ul class="list-unstyled">
+                        <li>✅ <strong>Retry Logic:</strong> 3 attempts per booking with 5-second delays</li>
+                        <li>✅ <strong>CAPTCHA Detection:</strong> Automatically skip bookings with CAPTCHAs</li>
+                        <li>✅ <strong>Dynamic Form Detection:</strong> Automatically find and fill form fields</li>
+                        <li>✅ <strong>Detailed Logging:</strong> Comprehensive logs saved to enhanced_booking.log</li>
+                        <li>✅ <strong>Email Notifications:</strong> Success, failure, and summary emails</li>
+                        <li>✅ <strong>Progress Tracking:</strong> Real-time statistics and row-by-row updates</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <button type="submit" class="btn btn-success" id="start-enhanced-btn">
+                <i data-feather="zap"></i> Start Enhanced Automation
+            </button>
+        </form>
+    </div>
+</div>
+
+<script>
+// Enhanced automation JavaScript
+$(document).ready(function() {
+    
+    // Enhanced automation form submission
+    $('#enhanced-automation-form').submit(function(e) {
+        e.preventDefault();
+        
+        const options = {
+            browser_type: $('#browser-type').val(),
+            headless: $('#enhanced-headless').is(':checked'),
+            concurrent: $('#concurrent-processing').is(':checked')
+        };
+        
+        const btn = $('#start-enhanced-btn');
+        const originalText = btn.html();
+        
+        btn.prop('disabled', true).html('<i data-feather="loader"></i> Starting Enhanced Automation...');
+        
+        $.ajax({
+            url: '/api/enhanced/start',
+            method: 'POST',
+            contentType: 'application/json',
+            data: JSON.stringify(options),
+            success: function(data) {
+                showAlert(`Enhanced automation started with ${data.options.browser_type} browser!`, 'success');
+                
+                // Show automation details
+                const details = `
+                    <div class="mt-2">
+                        <strong>Configuration:</strong><br>
+                        Browser: ${data.options.browser_type.charAt(0).toUpperCase() + data.options.browser_type.slice(1)}<br>
+                        Headless: ${data.options.headless ? 'Yes' : 'No (Visible)'}<br>
+                        Concurrent: ${data.options.concurrent ? 'Yes (Parallel)' : 'No (Sequential)'}
+                    </div>
+                `;
+                showAlert('Enhanced automation configuration:' + details, 'info');
+            },
+            error: function(xhr) {
+                showAlert('Error starting enhanced automation: ' + (xhr.responseJSON?.error || 'Unknown error'), 'danger');
+            },
+            complete: function() {
+                btn.prop('disabled', false).html(originalText);
+                feather.replace();
+            }
+        });
+    });
+    
+    // Helper function to show alerts
+    function showAlert(message, type) {
+        const alertHtml = `
+            <div class="alert alert-${type} alert-dismissible fade show" role="alert">
+                ${message}
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            </div>
+        `;
+        
+        // Insert alert at the top of the dashboard
+        $('#dashboard .card-body').first().prepend(alertHtml);
+        
+        // Auto-dismiss after 8 seconds for info alerts
+        if (type === 'info') {
+            setTimeout(function() {
+                $('.alert-info').fadeOut();
+            }, 8000);
+        }
+    }
+});
+</script>

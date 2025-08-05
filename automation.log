@@ -1,0 +1,1578 @@
+2025-08-05 00:11:32 - flask - INFO - Starting Flask application
+2025-08-05 00:11:33 - flask - INFO - Starting Flask application
+2025-08-05 00:11:44 - flask - INFO - Starting Flask application
+2025-08-05 00:11:53 - flask - INFO - Starting Flask application
+2025-08-05 00:12:56 - sheets - INFO - No credentials found, attempting to access public sheet
+2025-08-05 00:12:56 - sheets - ERROR - Error initializing Google Sheets client: [Errno 2] No such file or directory: '/home/runner/.config/gspread/service_account.json'
+2025-08-05 00:12:56 - flask - ERROR - Error previewing data: [Errno 2] No such file or directory: '/home/runner/.config/gspread/service_account.json'
+2025-08-05 00:13:05 - flask - INFO - Starting Flask application
+2025-08-05 00:13:06 - flask - INFO - Starting Flask application
+2025-08-05 00:16:36 - sheets - INFO - No credentials found, attempting to access public sheet
+2025-08-05 00:16:36 - sheets - ERROR - Error initializing Google Sheets client: [Errno 2] No such file or directory: '/home/runner/.config/gspread/service_account.json'
+2025-08-05 00:16:36 - flask - ERROR - Error previewing data: [Errno 2] No such file or directory: '/home/runner/.config/gspread/service_account.json'
+2025-08-05 00:16:39 - sheets - INFO - No credentials found, attempting to access public sheet
+2025-08-05 00:16:39 - sheets - ERROR - Error initializing Google Sheets client: [Errno 2] No such file or directory: '/home/runner/.config/gspread/service_account.json'
+2025-08-05 00:16:39 - flask - ERROR - Error previewing data: [Errno 2] No such file or directory: '/home/runner/.config/gspread/service_account.json'
+2025-08-05 00:16:40 - sheets - INFO - No credentials found, attempting to access public sheet
+2025-08-05 00:16:40 - sheets - ERROR - Error initializing Google Sheets client: [Errno 2] No such file or directory: '/home/runner/.config/gspread/service_account.json'
+2025-08-05 00:16:40 - flask - ERROR - Error previewing data: [Errno 2] No such file or directory: '/home/runner/.config/gspread/service_account.json'
+2025-08-05 00:16:43 - sheets - INFO - No credentials found, attempting to access public sheet
+2025-08-05 00:16:43 - sheets - ERROR - Error initializing Google Sheets client: [Errno 2] No such file or directory: '/home/runner/.config/gspread/service_account.json'
+2025-08-05 00:16:43 - flask - ERROR - Error previewing data: [Errno 2] No such file or directory: '/home/runner/.config/gspread/service_account.json'
+2025-08-05 00:16:46 - sheets - INFO - No credentials found, attempting to access public sheet
+2025-08-05 00:16:46 - sheets - ERROR - Error initializing Google Sheets client: [Errno 2] No such file or directory: '/home/runner/.config/gspread/service_account.json'
+2025-08-05 00:16:46 - flask - ERROR - Automation failed: [Errno 2] No such file or directory: '/home/runner/.config/gspread/service_account.json'
+2025-08-05 00:17:17 - flask - INFO - Starting Flask application
+2025-08-05 00:17:23 - flask - INFO - Starting Flask application
+2025-08-05 00:17:43 - flask - INFO - Starting Flask application
+2025-08-05 00:17:52 - flask - INFO - Starting Flask application
+2025-08-05 00:18:09 - flask - INFO - Starting Flask application
+2025-08-05 00:18:19 - flask - INFO - Starting Flask application
+2025-08-05 00:18:35 - flask - INFO - Starting Flask application
+2025-08-05 00:18:36 - flask - INFO - Starting Flask application
+2025-08-05 00:19:07 - sheets - INFO - No credentials found, will attempt to access public sheet via CSV export
+2025-08-05 00:19:07 - sheets - ERROR - Error opening worksheet: Google Sheet URL not provided
+2025-08-05 00:19:07 - sheets - ERROR - Error initializing Google Sheets client: Google Sheet URL not provided
+2025-08-05 00:19:07 - flask - ERROR - Automation failed: Google Sheet URL not provided
+2025-08-05 00:19:34 - sheets - INFO - No credentials found, will attempt to access public sheet via CSV export
+2025-08-05 00:19:34 - sheets - ERROR - Error opening worksheet: Google Sheet URL not provided
+2025-08-05 00:19:34 - sheets - ERROR - Error initializing Google Sheets client: Google Sheet URL not provided
+2025-08-05 00:19:34 - flask - ERROR - Automation failed: Google Sheet URL not provided
+2025-08-05 00:19:41 - sheets - INFO - No credentials found, will attempt to access public sheet via CSV export
+2025-08-05 00:19:41 - sheets - ERROR - Error opening worksheet: Google Sheet URL not provided
+2025-08-05 00:19:41 - sheets - ERROR - Error initializing Google Sheets client: Google Sheet URL not provided
+2025-08-05 00:19:41 - flask - ERROR - Automation failed: Google Sheet URL not provided
+2025-08-05 00:19:53 - sheets - INFO - No credentials found, will attempt to access public sheet via CSV export
+2025-08-05 00:19:53 - sheets - ERROR - Error opening worksheet: Google Sheet URL not provided
+2025-08-05 00:19:53 - sheets - ERROR - Error initializing Google Sheets client: Google Sheet URL not provided
+2025-08-05 00:19:53 - flask - ERROR - Automation failed: Google Sheet URL not provided
+2025-08-05 00:20:36 - flask - INFO - Starting Flask application
+2025-08-05 00:20:42 - flask - INFO - Starting Flask application
+2025-08-05 00:20:47 - flask - INFO - Starting Flask application
+2025-08-05 00:20:53 - flask - INFO - Starting Flask application
+2025-08-05 00:20:58 - flask - INFO - Starting Flask application
+2025-08-05 00:22:24 - sheets - INFO - No credentials found, will attempt to access public sheet via CSV export
+2025-08-05 00:22:24 - sheets - ERROR - Error opening worksheet: Google Sheet URL not provided
+2025-08-05 00:22:24 - sheets - ERROR - Error initializing Google Sheets client: Google Sheet URL not provided
+2025-08-05 00:22:24 - flask - ERROR - Automation failed: Google Sheet URL not provided
+2025-08-05 00:22:27 - sheets - INFO - No credentials found, will attempt to access public sheet via CSV export
+2025-08-05 00:22:27 - sheets - ERROR - Error opening worksheet: Google Sheet URL not provided
+2025-08-05 00:22:27 - sheets - ERROR - Error initializing Google Sheets client: Google Sheet URL not provided
+2025-08-05 00:22:27 - flask - ERROR - Automation failed: Google Sheet URL not provided
+2025-08-05 00:22:59 - flask - INFO - Starting Flask application
+2025-08-05 00:23:07 - flask - INFO - Starting Flask application
+2025-08-05 00:23:18 - flask - INFO - Starting Flask application
+2025-08-05 00:23:25 - flask - INFO - Starting Flask application
+2025-08-05 00:23:26 - flask - INFO - Starting Flask application
+2025-08-05 00:23:33 - flask - INFO - Starting Flask application
+2025-08-05 00:23:39 - flask - INFO - Starting Flask application
+2025-08-05 00:24:25 - flask - INFO - Updated Google Sheet URL to: https://docs.google.com/spreadsheets/d/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI/edit?usp=sharing
+2025-08-05 00:24:30 - flask - INFO - Starting automation with Google Sheet URL: https://docs.google.com/spreadsheets/d/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI/edit?usp=sharing
+2025-08-05 00:24:30 - sheets - INFO - No credentials found, will attempt to access public sheet via CSV export
+2025-08-05 00:24:30 - sheets - INFO - Will access public sheet via CSV export: 1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI
+2025-08-05 00:24:30 - automation - INFO - Starting booking automation
+2025-08-05 00:24:30 - sheets - ERROR - Error accessing public sheet: 400 Client Error: Bad Request for url: https://doc-0o-54-sheets.googleusercontent.com/export/54bogvaave6cua4cdnls17ksc4/2f2p3gfn2a3v52f1bttppjq0vs/1754353470000/115367410330157801729/*/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI?format=csv&gid=0
+2025-08-05 00:24:30 - automation - WARNING - No data found in Google Sheets
+2025-08-05 00:24:30 - automation - INFO - Browser cleanup completed
+2025-08-05 00:24:30 - flask - INFO - Automation completed successfully
+2025-08-05 00:24:39 - sheets - INFO - No credentials found, will attempt to access public sheet via CSV export
+2025-08-05 00:24:39 - sheets - INFO - Will access public sheet via CSV export: 1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI
+2025-08-05 00:24:39 - sheets - ERROR - Error accessing public sheet: 400 Client Error: Bad Request for url: https://doc-0o-54-sheets.googleusercontent.com/export/54bogvaave6cua4cdnls17ksc4/ud72qgalf1gpvemkijpe5acp64/1754353475000/115367410330157801729/*/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI?format=csv&gid=0
+2025-08-05 00:26:38 - sheets - INFO - No credentials found, will attempt to access public sheet via CSV export
+2025-08-05 00:26:38 - sheets - INFO - Will access public sheet via CSV export: 1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI
+2025-08-05 00:26:38 - sheets - ERROR - Error accessing public sheet: 400 Client Error: Bad Request for url: https://doc-0o-54-sheets.googleusercontent.com/export/54bogvaave6cua4cdnls17ksc4/upi7l7effjfu0c22qec9f0h8mc/1754353595000/115367410330157801729/*/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI?format=csv&gid=0
+2025-08-05 00:27:01 - flask - INFO - Starting Flask application
+2025-08-05 00:28:44 - flask - INFO - Updated Google Sheet URL to: https://docs.google.com/spreadsheets/d/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI/edit?usp=sharing
+2025-08-05 00:28:47 - flask - INFO - Starting automation with Google Sheet URL: https://docs.google.com/spreadsheets/d/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI/edit?usp=sharing
+2025-08-05 00:28:47 - sheets - INFO - No credentials found, will attempt to access public sheet via CSV export
+2025-08-05 00:28:47 - sheets - INFO - Will access public sheet via CSV export: 1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI
+2025-08-05 00:28:47 - automation - INFO - Starting booking automation
+2025-08-05 00:28:47 - sheets - INFO - Trying CSV URL: https://docs.google.com/spreadsheets/d/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI/export?format=csv&gid=0
+2025-08-05 00:28:48 - sheets - WARNING - Invalid response from https://docs.google.com/spreadsheets/d/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI/export?format=csv&gid=0: Status 400
+2025-08-05 00:28:48 - sheets - INFO - Trying CSV URL: https://docs.google.com/spreadsheets/d/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI/export?format=csv
+2025-08-05 00:28:48 - sheets - INFO - Found headers: ['name', 'email', 'company', 'Status', 'Handle', 'Likes', 'Followers', 'Website', 'Email', 'Phone number', 'WhatsApp number', 'WhatsApp number link', 'Location address', 'Location link address', 'url']
+2025-08-05 00:28:48 - sheets - INFO - Retrieved 28 rows from public Google Sheet
+2025-08-05 00:28:49 - automation - ERROR - Error initializing browser: BrowserType.launch: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Please install them with the following command:      ║
+║                                                      ║
+║     sudo playwright install-deps                     ║
+║                                                      ║
+║ Alternatively, use apt:                              ║
+║     sudo apt-get install libnspr4\                   ║
+║         libnss3\                                     ║
+║         libdbus-1-3\                                 ║
+║         libatk1.0-0t64\                              ║
+║         libatk-bridge2.0-0t64\                       ║
+║         libatspi2.0-0t64\                            ║
+║         libxcomposite1\                              ║
+║         libxdamage1\                                 ║
+║         libxfixes3\                                  ║
+║         libgbm1\                                     ║
+║         libxcb1\                                     ║
+║         libxkbcommon0\                               ║
+║         libasound2t64                                ║
+║                                                      ║
+║ <3 Playwright Team                                   ║
+╚══════════════════════════════════════════════════════╝
+2025-08-05 00:28:49 - automation - ERROR - Fatal error in automation: BrowserType.launch: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Please install them with the following command:      ║
+║                                                      ║
+║     sudo playwright install-deps                     ║
+║                                                      ║
+║ Alternatively, use apt:                              ║
+║     sudo apt-get install libnspr4\                   ║
+║         libnss3\                                     ║
+║         libdbus-1-3\                                 ║
+║         libatk1.0-0t64\                              ║
+║         libatk-bridge2.0-0t64\                       ║
+║         libatspi2.0-0t64\                            ║
+║         libxcomposite1\                              ║
+║         libxdamage1\                                 ║
+║         libxfixes3\                                  ║
+║         libgbm1\                                     ║
+║         libxcb1\                                     ║
+║         libxkbcommon0\                               ║
+║         libasound2t64                                ║
+║                                                      ║
+║ <3 Playwright Team                                   ║
+╚══════════════════════════════════════════════════════╝
+2025-08-05 00:28:49 - automation - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/runner/workspace/automation.py", line 36, in run
+    await self.init_browser()
+  File "/home/runner/workspace/automation.py", line 104, in init_browser
+    self.browser = await playwright.chromium.launch(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/playwright/async_api/_generated.py", line 14457, in launch
+    await self._impl_obj.launch(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/playwright/_impl/_browser_type.py", line 98, in launch
+    await self._channel.send(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: BrowserType.launch: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Please install them with the following command:      ║
+║                                                      ║
+║     sudo playwright install-deps                     ║
+║                                                      ║
+║ Alternatively, use apt:                              ║
+║     sudo apt-get install libnspr4\                   ║
+║         libnss3\                                     ║
+║         libdbus-1-3\                                 ║
+║         libatk1.0-0t64\                              ║
+║         libatk-bridge2.0-0t64\                       ║
+║         libatspi2.0-0t64\                            ║
+║         libxcomposite1\                              ║
+║         libxdamage1\                                 ║
+║         libxfixes3\                                  ║
+║         libgbm1\                                     ║
+║         libxcb1\                                     ║
+║         libxkbcommon0\                               ║
+║         libasound2t64                                ║
+║                                                      ║
+║ <3 Playwright Team                                   ║
+╚══════════════════════════════════════════════════════╝
+
+2025-08-05 00:28:49 - automation - INFO - Browser cleanup completed
+2025-08-05 00:28:49 - flask - INFO - Automation completed successfully
+2025-08-05 00:28:56 - sheets - INFO - No credentials found, will attempt to access public sheet via CSV export
+2025-08-05 00:28:56 - sheets - INFO - Will access public sheet via CSV export: 1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI
+2025-08-05 00:28:56 - sheets - INFO - Trying CSV URL: https://docs.google.com/spreadsheets/d/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI/export?format=csv&gid=0
+2025-08-05 00:28:56 - sheets - WARNING - Invalid response from https://docs.google.com/spreadsheets/d/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI/export?format=csv&gid=0: Status 400
+2025-08-05 00:28:56 - sheets - INFO - Trying CSV URL: https://docs.google.com/spreadsheets/d/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI/export?format=csv
+2025-08-05 00:28:57 - sheets - INFO - Found headers: ['name', 'email', 'company', 'Status', 'Handle', 'Likes', 'Followers', 'Website', 'Email', 'Phone number', 'WhatsApp number', 'WhatsApp number link', 'Location address', 'Location link address', 'url']
+2025-08-05 00:28:57 - sheets - INFO - Retrieved 28 rows from public Google Sheet
+2025-08-05 00:29:12 - sheets - INFO - No credentials found, will attempt to access public sheet via CSV export
+2025-08-05 00:29:12 - sheets - INFO - Will access public sheet via CSV export: 1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI
+2025-08-05 00:29:12 - sheets - INFO - Trying CSV URL: https://docs.google.com/spreadsheets/d/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI/export?format=csv&gid=0
+2025-08-05 00:29:12 - sheets - WARNING - Invalid response from https://docs.google.com/spreadsheets/d/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI/export?format=csv&gid=0: Status 400
+2025-08-05 00:29:12 - sheets - INFO - Trying CSV URL: https://docs.google.com/spreadsheets/d/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI/export?format=csv
+2025-08-05 00:29:13 - sheets - INFO - Found headers: ['name', 'email', 'company', 'Status', 'Handle', 'Likes', 'Followers', 'Website', 'Email', 'Phone number', 'WhatsApp number', 'WhatsApp number link', 'Location address', 'Location link address', 'url']
+2025-08-05 00:29:13 - sheets - INFO - Retrieved 28 rows from public Google Sheet
+2025-08-05 00:31:47 - sheets - INFO - No credentials found, will attempt to access public sheet via CSV export
+2025-08-05 00:31:47 - sheets - INFO - Will access public sheet via CSV export: 1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI
+2025-08-05 00:31:47 - sheets - INFO - Trying CSV URL: https://docs.google.com/spreadsheets/d/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI/export?format=csv&gid=0
+2025-08-05 00:31:48 - sheets - WARNING - Invalid response from https://docs.google.com/spreadsheets/d/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI/export?format=csv&gid=0: Status 400
+2025-08-05 00:31:48 - sheets - INFO - Trying CSV URL: https://docs.google.com/spreadsheets/d/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI/export?format=csv
+2025-08-05 00:31:48 - sheets - INFO - Found headers: ['name', 'email', 'company', 'Status', 'Handle', 'Likes', 'Followers', 'Website', 'Email', 'Phone number', 'WhatsApp number', 'WhatsApp number link', 'Location address', 'Location link address', 'url']
+2025-08-05 00:31:48 - sheets - INFO - Retrieved 28 rows from public Google Sheet
+2025-08-05 00:32:16 - flask - INFO - Starting Flask application
+2025-08-05 00:32:29 - flask - INFO - Starting Flask application
+2025-08-05 00:32:39 - flask - INFO - Starting Flask application
+2025-08-05 00:32:39 - flask - INFO - Starting Flask application
+2025-08-05 00:33:22 - flask - INFO - Updated Google Sheet URL to: https://docs.google.com/spreadsheets/d/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI/edit?usp=sharing
+2025-08-05 00:33:28 - flask - INFO - Starting automation with Google Sheet URL: https://docs.google.com/spreadsheets/d/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI/edit?usp=sharing
+2025-08-05 00:33:28 - sheets - INFO - No credentials found, will attempt to access public sheet via CSV export
+2025-08-05 00:33:28 - sheets - INFO - Will access public sheet via CSV export: 1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI
+2025-08-05 00:33:28 - automation - INFO - Starting booking automation
+2025-08-05 00:33:28 - sheets - INFO - Trying CSV URL: https://docs.google.com/spreadsheets/d/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI/export?format=csv&gid=0
+2025-08-05 00:33:29 - sheets - WARNING - Invalid response from https://docs.google.com/spreadsheets/d/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI/export?format=csv&gid=0: Status 400
+2025-08-05 00:33:29 - sheets - INFO - Trying CSV URL: https://docs.google.com/spreadsheets/d/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI/export?format=csv
+2025-08-05 00:33:29 - sheets - INFO - Found headers: ['name', 'email', 'company', 'Status', 'Handle', 'Likes', 'Followers', 'Website', 'Email', 'Phone number', 'WhatsApp number', 'WhatsApp number link', 'Location address', 'Location link address', 'url']
+2025-08-05 00:33:29 - sheets - INFO - Retrieved 28 rows from public Google Sheet
+2025-08-05 00:33:30 - automation - ERROR - Error initializing browser: BrowserType.launch: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Please install them with the following command:      ║
+║                                                      ║
+║     sudo playwright install-deps                     ║
+║                                                      ║
+║ Alternatively, use apt:                              ║
+║     sudo apt-get install libnspr4\                   ║
+║         libnss3\                                     ║
+║         libdbus-1-3\                                 ║
+║         libatk1.0-0t64\                              ║
+║         libatk-bridge2.0-0t64\                       ║
+║         libatspi2.0-0t64\                            ║
+║         libxcomposite1\                              ║
+║         libxdamage1\                                 ║
+║         libxfixes3\                                  ║
+║         libgbm1\                                     ║
+║         libxcb1\                                     ║
+║         libxkbcommon0\                               ║
+║         libasound2t64                                ║
+║                                                      ║
+║ <3 Playwright Team                                   ║
+╚══════════════════════════════════════════════════════╝
+2025-08-05 00:33:30 - automation - ERROR - Fatal error in automation: BrowserType.launch: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Please install them with the following command:      ║
+║                                                      ║
+║     sudo playwright install-deps                     ║
+║                                                      ║
+║ Alternatively, use apt:                              ║
+║     sudo apt-get install libnspr4\                   ║
+║         libnss3\                                     ║
+║         libdbus-1-3\                                 ║
+║         libatk1.0-0t64\                              ║
+║         libatk-bridge2.0-0t64\                       ║
+║         libatspi2.0-0t64\                            ║
+║         libxcomposite1\                              ║
+║         libxdamage1\                                 ║
+║         libxfixes3\                                  ║
+║         libgbm1\                                     ║
+║         libxcb1\                                     ║
+║         libxkbcommon0\                               ║
+║         libasound2t64                                ║
+║                                                      ║
+║ <3 Playwright Team                                   ║
+╚══════════════════════════════════════════════════════╝
+2025-08-05 00:33:30 - automation - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/runner/workspace/automation.py", line 36, in run
+    await self.init_browser()
+  File "/home/runner/workspace/automation.py", line 114, in init_browser
+    self.browser = await playwright.chromium.launch(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/playwright/async_api/_generated.py", line 14457, in launch
+    await self._impl_obj.launch(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/playwright/_impl/_browser_type.py", line 98, in launch
+    await self._channel.send(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: BrowserType.launch: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Please install them with the following command:      ║
+║                                                      ║
+║     sudo playwright install-deps                     ║
+║                                                      ║
+║ Alternatively, use apt:                              ║
+║     sudo apt-get install libnspr4\                   ║
+║         libnss3\                                     ║
+║         libdbus-1-3\                                 ║
+║         libatk1.0-0t64\                              ║
+║         libatk-bridge2.0-0t64\                       ║
+║         libatspi2.0-0t64\                            ║
+║         libxcomposite1\                              ║
+║         libxdamage1\                                 ║
+║         libxfixes3\                                  ║
+║         libgbm1\                                     ║
+║         libxcb1\                                     ║
+║         libxkbcommon0\                               ║
+║         libasound2t64                                ║
+║                                                      ║
+║ <3 Playwright Team                                   ║
+╚══════════════════════════════════════════════════════╝
+
+2025-08-05 00:33:30 - automation - INFO - Browser cleanup completed
+2025-08-05 00:33:30 - flask - INFO - Automation completed successfully
+2025-08-05 00:33:38 - sheets - INFO - No credentials found, will attempt to access public sheet via CSV export
+2025-08-05 00:33:38 - sheets - INFO - Will access public sheet via CSV export: 1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI
+2025-08-05 00:33:38 - sheets - INFO - Trying CSV URL: https://docs.google.com/spreadsheets/d/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI/export?format=csv&gid=0
+2025-08-05 00:33:38 - sheets - WARNING - Invalid response from https://docs.google.com/spreadsheets/d/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI/export?format=csv&gid=0: Status 400
+2025-08-05 00:33:38 - sheets - INFO - Trying CSV URL: https://docs.google.com/spreadsheets/d/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI/export?format=csv
+2025-08-05 00:33:39 - sheets - INFO - Found headers: ['name', 'email', 'company', 'Status', 'Handle', 'Likes', 'Followers', 'Website', 'Email', 'Phone number', 'WhatsApp number', 'WhatsApp number link', 'Location address', 'Location link address', 'url']
+2025-08-05 00:33:39 - sheets - INFO - Retrieved 28 rows from public Google Sheet
+2025-08-05 00:33:50 - sheets - INFO - No credentials found, will attempt to access public sheet via CSV export
+2025-08-05 00:33:50 - sheets - INFO - Will access public sheet via CSV export: 1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI
+2025-08-05 00:33:50 - sheets - INFO - Trying CSV URL: https://docs.google.com/spreadsheets/d/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI/export?format=csv&gid=0
+2025-08-05 00:33:50 - sheets - WARNING - Invalid response from https://docs.google.com/spreadsheets/d/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI/export?format=csv&gid=0: Status 400
+2025-08-05 00:33:50 - sheets - INFO - Trying CSV URL: https://docs.google.com/spreadsheets/d/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI/export?format=csv
+2025-08-05 00:33:51 - sheets - INFO - Found headers: ['name', 'email', 'company', 'Status', 'Handle', 'Likes', 'Followers', 'Website', 'Email', 'Phone number', 'WhatsApp number', 'WhatsApp number link', 'Location address', 'Location link address', 'url']
+2025-08-05 00:33:51 - sheets - INFO - Retrieved 28 rows from public Google Sheet
+2025-08-05 00:34:59 - flask - INFO - Starting Flask application
+2025-08-05 00:35:57 - flask - INFO - Starting Flask application
+2025-08-05 00:35:57 - flask - INFO - Starting Flask application
+2025-08-05 00:36:41 - flask - INFO - Updated Google Sheet URL to: https://docs.google.com/spreadsheets/d/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI/edit?usp=sharing
+2025-08-05 00:36:46 - flask - INFO - Starting automation with Google Sheet URL: https://docs.google.com/spreadsheets/d/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI/edit?usp=sharing
+2025-08-05 00:36:46 - sheets - INFO - No credentials found, will attempt to access public sheet via CSV export
+2025-08-05 00:36:46 - sheets - INFO - Will access public sheet via CSV export: 1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI
+2025-08-05 00:36:46 - automation - INFO - Starting booking automation
+2025-08-05 00:36:46 - sheets - INFO - Trying CSV URL: https://docs.google.com/spreadsheets/d/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI/export?format=csv&gid=0
+2025-08-05 00:36:46 - sheets - WARNING - Invalid response from https://docs.google.com/spreadsheets/d/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI/export?format=csv&gid=0: Status 400
+2025-08-05 00:36:46 - sheets - INFO - Trying CSV URL: https://docs.google.com/spreadsheets/d/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI/export?format=csv
+2025-08-05 00:36:47 - sheets - INFO - Found headers: ['name', 'email', 'company', 'Status', 'Handle', 'Likes', 'Followers', 'Website', 'Email', 'Phone number', 'WhatsApp number', 'WhatsApp number link', 'Location address', 'Location link address', 'url']
+2025-08-05 00:36:47 - sheets - INFO - Retrieved 28 rows from public Google Sheet
+2025-08-05 00:36:47 - automation - ERROR - Error initializing browser: BrowserType.launch: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Please install them with the following command:      ║
+║                                                      ║
+║     sudo playwright install-deps                     ║
+║                                                      ║
+║ Alternatively, use apt:                              ║
+║     sudo apt-get install libnspr4\                   ║
+║         libnss3\                                     ║
+║         libdbus-1-3\                                 ║
+║         libatk1.0-0t64\                              ║
+║         libatk-bridge2.0-0t64\                       ║
+║         libatspi2.0-0t64\                            ║
+║         libxcomposite1\                              ║
+║         libxdamage1\                                 ║
+║         libxfixes3\                                  ║
+║         libgbm1\                                     ║
+║         libxcb1\                                     ║
+║         libxkbcommon0\                               ║
+║         libasound2t64                                ║
+║                                                      ║
+║ <3 Playwright Team                                   ║
+╚══════════════════════════════════════════════════════╝
+2025-08-05 00:36:47 - automation - ERROR - Fatal error in automation: BrowserType.launch: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Please install them with the following command:      ║
+║                                                      ║
+║     sudo playwright install-deps                     ║
+║                                                      ║
+║ Alternatively, use apt:                              ║
+║     sudo apt-get install libnspr4\                   ║
+║         libnss3\                                     ║
+║         libdbus-1-3\                                 ║
+║         libatk1.0-0t64\                              ║
+║         libatk-bridge2.0-0t64\                       ║
+║         libatspi2.0-0t64\                            ║
+║         libxcomposite1\                              ║
+║         libxdamage1\                                 ║
+║         libxfixes3\                                  ║
+║         libgbm1\                                     ║
+║         libxcb1\                                     ║
+║         libxkbcommon0\                               ║
+║         libasound2t64                                ║
+║                                                      ║
+║ <3 Playwright Team                                   ║
+╚══════════════════════════════════════════════════════╝
+2025-08-05 00:36:47 - automation - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/runner/workspace/automation.py", line 36, in run
+    await self.init_browser()
+  File "/home/runner/workspace/automation.py", line 114, in init_browser
+    self.browser = await playwright.chromium.launch(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/playwright/async_api/_generated.py", line 14457, in launch
+    await self._impl_obj.launch(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/playwright/_impl/_browser_type.py", line 98, in launch
+    await self._channel.send(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: BrowserType.launch: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Please install them with the following command:      ║
+║                                                      ║
+║     sudo playwright install-deps                     ║
+║                                                      ║
+║ Alternatively, use apt:                              ║
+║     sudo apt-get install libnspr4\                   ║
+║         libnss3\                                     ║
+║         libdbus-1-3\                                 ║
+║         libatk1.0-0t64\                              ║
+║         libatk-bridge2.0-0t64\                       ║
+║         libatspi2.0-0t64\                            ║
+║         libxcomposite1\                              ║
+║         libxdamage1\                                 ║
+║         libxfixes3\                                  ║
+║         libgbm1\                                     ║
+║         libxcb1\                                     ║
+║         libxkbcommon0\                               ║
+║         libasound2t64                                ║
+║                                                      ║
+║ <3 Playwright Team                                   ║
+╚══════════════════════════════════════════════════════╝
+
+2025-08-05 00:36:47 - automation - INFO - Browser cleanup completed
+2025-08-05 00:36:47 - flask - INFO - Automation completed successfully
+2025-08-05 00:36:58 - sheets - INFO - No credentials found, will attempt to access public sheet via CSV export
+2025-08-05 00:36:58 - sheets - INFO - Will access public sheet via CSV export: 1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI
+2025-08-05 00:36:58 - sheets - INFO - Trying CSV URL: https://docs.google.com/spreadsheets/d/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI/export?format=csv&gid=0
+2025-08-05 00:36:58 - sheets - WARNING - Invalid response from https://docs.google.com/spreadsheets/d/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI/export?format=csv&gid=0: Status 400
+2025-08-05 00:36:58 - sheets - INFO - Trying CSV URL: https://docs.google.com/spreadsheets/d/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI/export?format=csv
+2025-08-05 00:36:58 - sheets - INFO - Found headers: ['name', 'email', 'company', 'Status', 'Handle', 'Likes', 'Followers', 'Website', 'Email', 'Phone number', 'WhatsApp number', 'WhatsApp number link', 'Location address', 'Location link address', 'url']
+2025-08-05 00:36:58 - sheets - INFO - Retrieved 28 rows from public Google Sheet
+2025-08-05 00:38:13 - flask - INFO - Starting Flask application
+2025-08-05 00:38:16 - flask - INFO - Starting Flask application
+2025-08-05 00:38:22 - flask - INFO - Starting Flask application
+2025-08-05 00:38:25 - flask - INFO - Starting Flask application
+2025-08-05 00:38:38 - flask - INFO - Starting Flask application
+2025-08-05 00:38:40 - flask - INFO - Starting Flask application
+2025-08-05 00:38:41 - flask - INFO - Starting Flask application
+2025-08-05 00:38:42 - flask - INFO - Starting Flask application
+2025-08-05 00:39:10 - flask - INFO - Starting Flask application
+2025-08-05 00:39:14 - flask - INFO - Starting Flask application
+2025-08-05 00:39:14 - flask - INFO - Starting Flask application
+2025-08-05 00:40:57 - flask - INFO - Starting Flask application
+2025-08-05 00:41:00 - sheets - ERROR - Error initializing Google Sheets client: ('Unused bytes', b"|'u\xc9\xf0\x9e\x10\xe4_\t\xed\x8e\x89\xf0\x9eP\xdc\x9e\x05\xf0\x9fF\xf0\x9e\xc4\xd9\x8e\x89\xf1\x0e")
+2025-08-05 00:42:56 - sheets - INFO - Opened worksheet: appointments
+2025-08-05 00:42:56 - sheets - INFO - Google Sheets client initialized successfully
+2025-08-05 00:42:56 - sheets - INFO - Retrieved 28 rows from Google Sheet
+2025-08-05 00:43:07 - sheets - INFO - Opened worksheet: appointments
+2025-08-05 00:43:07 - sheets - INFO - Google Sheets client initialized successfully
+2025-08-05 00:43:08 - sheets - INFO - Retrieved 28 rows from Google Sheet
+2025-08-05 00:43:19 - flask - INFO - Starting Flask application
+2025-08-05 00:43:20 - flask - INFO - Starting Flask application
+2025-08-05 00:43:24 - sheets - ERROR - Error opening worksheet: Google Sheet URL not provided
+2025-08-05 00:43:24 - sheets - ERROR - Error initializing Google Sheets client: Google Sheet URL not provided
+2025-08-05 00:43:24 - flask - ERROR - Error previewing data: Google Sheet URL not provided
+2025-08-05 00:43:31 - sheets - ERROR - Error opening worksheet: Google Sheet URL not provided
+2025-08-05 00:43:31 - sheets - ERROR - Error initializing Google Sheets client: Google Sheet URL not provided
+2025-08-05 00:43:31 - flask - ERROR - Error previewing data: Google Sheet URL not provided
+2025-08-05 00:43:40 - flask - INFO - Starting Flask application
+2025-08-05 00:43:40 - flask - INFO - Starting Flask application
+2025-08-05 00:50:40 - flask - INFO - Updated Google Sheet URL to: https://docs.google.com/spreadsheets/d/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI/edit?usp=sharing
+2025-08-05 00:50:44 - flask - INFO - Starting automation with Google Sheet URL: https://docs.google.com/spreadsheets/d/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI/edit?usp=sharing
+2025-08-05 00:50:45 - sheets - INFO - Opened worksheet: appointments
+2025-08-05 00:50:45 - sheets - INFO - Google Sheets client initialized successfully
+2025-08-05 00:50:45 - automation - INFO - Starting booking automation
+2025-08-05 00:50:45 - sheets - INFO - Retrieved 28 rows from Google Sheet
+2025-08-05 00:50:45 - automation - INFO - Initializing HTTP-based booking client...
+2025-08-05 00:50:45 - automation - INFO - Starting to process 28 rows from Google Sheet
+2025-08-05 00:50:45 - automation - INFO - Row 2: Processing data: {'name': '', 'email': '', 'company': 'Divlyn Blue', 'status': ''}
+2025-08-05 00:50:45 - automation - WARNING - Missing or empty required field: name
+2025-08-05 00:50:45 - automation - WARNING - Row 2: Invalid data - skipping
+2025-08-05 00:50:45 - automation - INFO - Row 3: Processing data: {'name': '', 'email': '', 'company': 'Divlyn Green', 'status': ''}
+2025-08-05 00:50:45 - automation - WARNING - Missing or empty required field: name
+2025-08-05 00:50:45 - automation - WARNING - Row 3: Invalid data - skipping
+2025-08-05 00:50:45 - automation - INFO - Row 4: Processing data: {'name': '', 'email': '', 'company': 'Divlyn Yellow', 'status': ''}
+2025-08-05 00:50:45 - automation - WARNING - Missing or empty required field: name
+2025-08-05 00:50:45 - automation - WARNING - Row 4: Invalid data - skipping
+2025-08-05 00:50:45 - automation - INFO - Row 5: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:50:45 - automation - WARNING - Missing or empty required field: name
+2025-08-05 00:50:45 - automation - WARNING - Row 5: Invalid data - skipping
+2025-08-05 00:50:45 - automation - INFO - Row 6: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:50:45 - automation - WARNING - Missing or empty required field: name
+2025-08-05 00:50:45 - automation - WARNING - Row 6: Invalid data - skipping
+2025-08-05 00:50:45 - automation - INFO - Row 7: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:50:45 - automation - WARNING - Missing or empty required field: name
+2025-08-05 00:50:45 - automation - WARNING - Row 7: Invalid data - skipping
+2025-08-05 00:50:45 - automation - INFO - Row 8: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:50:45 - automation - WARNING - Missing or empty required field: name
+2025-08-05 00:50:45 - automation - WARNING - Row 8: Invalid data - skipping
+2025-08-05 00:50:45 - automation - INFO - Row 9: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:50:45 - automation - WARNING - Missing or empty required field: name
+2025-08-05 00:50:45 - automation - WARNING - Row 9: Invalid data - skipping
+2025-08-05 00:50:45 - automation - INFO - Row 10: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:50:45 - automation - WARNING - Missing or empty required field: name
+2025-08-05 00:50:45 - automation - WARNING - Row 10: Invalid data - skipping
+2025-08-05 00:50:45 - automation - INFO - Row 11: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:50:45 - automation - WARNING - Missing or empty required field: name
+2025-08-05 00:50:45 - automation - WARNING - Row 11: Invalid data - skipping
+2025-08-05 00:50:45 - automation - INFO - Row 12: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:50:45 - automation - WARNING - Missing or empty required field: name
+2025-08-05 00:50:45 - automation - WARNING - Row 12: Invalid data - skipping
+2025-08-05 00:50:45 - automation - INFO - Row 13: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:50:45 - automation - WARNING - Missing or empty required field: name
+2025-08-05 00:50:45 - automation - WARNING - Row 13: Invalid data - skipping
+2025-08-05 00:50:45 - automation - INFO - Row 14: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:50:45 - automation - WARNING - Missing or empty required field: name
+2025-08-05 00:50:45 - automation - WARNING - Row 14: Invalid data - skipping
+2025-08-05 00:50:45 - automation - INFO - Row 15: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:50:45 - automation - WARNING - Missing or empty required field: name
+2025-08-05 00:50:45 - automation - WARNING - Row 15: Invalid data - skipping
+2025-08-05 00:50:45 - automation - INFO - Row 16: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:50:45 - automation - WARNING - Missing or empty required field: name
+2025-08-05 00:50:45 - automation - WARNING - Row 16: Invalid data - skipping
+2025-08-05 00:50:45 - automation - INFO - Row 17: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:50:45 - automation - WARNING - Missing or empty required field: name
+2025-08-05 00:50:45 - automation - WARNING - Row 17: Invalid data - skipping
+2025-08-05 00:50:45 - automation - INFO - Row 18: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:50:45 - automation - WARNING - Missing or empty required field: name
+2025-08-05 00:50:45 - automation - WARNING - Row 18: Invalid data - skipping
+2025-08-05 00:50:45 - automation - INFO - Row 19: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:50:45 - automation - WARNING - Missing or empty required field: name
+2025-08-05 00:50:45 - automation - WARNING - Row 19: Invalid data - skipping
+2025-08-05 00:50:45 - automation - INFO - Row 20: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:50:45 - automation - WARNING - Missing or empty required field: name
+2025-08-05 00:50:45 - automation - WARNING - Row 20: Invalid data - skipping
+2025-08-05 00:50:45 - automation - INFO - Row 21: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:50:45 - automation - WARNING - Missing or empty required field: name
+2025-08-05 00:50:45 - automation - WARNING - Row 21: Invalid data - skipping
+2025-08-05 00:50:45 - automation - INFO - Row 22: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:50:45 - automation - WARNING - Missing or empty required field: name
+2025-08-05 00:50:45 - automation - WARNING - Row 22: Invalid data - skipping
+2025-08-05 00:50:45 - automation - INFO - Row 23: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:50:45 - automation - WARNING - Missing or empty required field: name
+2025-08-05 00:50:45 - automation - WARNING - Row 23: Invalid data - skipping
+2025-08-05 00:50:45 - automation - INFO - Row 24: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:50:45 - automation - WARNING - Missing or empty required field: name
+2025-08-05 00:50:45 - automation - WARNING - Row 24: Invalid data - skipping
+2025-08-05 00:50:45 - automation - INFO - Row 25: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:50:45 - automation - WARNING - Missing or empty required field: name
+2025-08-05 00:50:45 - automation - WARNING - Row 25: Invalid data - skipping
+2025-08-05 00:50:45 - automation - INFO - Row 26: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:50:45 - automation - WARNING - Missing or empty required field: name
+2025-08-05 00:50:45 - automation - WARNING - Row 26: Invalid data - skipping
+2025-08-05 00:50:45 - automation - INFO - Row 27: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:50:45 - automation - WARNING - Missing or empty required field: name
+2025-08-05 00:50:45 - automation - WARNING - Row 27: Invalid data - skipping
+2025-08-05 00:50:45 - automation - INFO - Row 28: Processing data: {'name': '', 'email': 'ambersellsthesierras@gmail.com', 'company': '', 'status': 'Amber Sells the Sierras - Real Estate'}
+2025-08-05 00:50:45 - automation - WARNING - Missing or empty required field: name
+2025-08-05 00:50:45 - automation - WARNING - Row 28: Invalid data - skipping
+2025-08-05 00:50:45 - automation - INFO - Row 29: Processing data: {'name': '', 'email': 'ambersellsthesierras@gmail.com', 'company': '', 'status': 'Amber Sells the Sierras - Real Estate'}
+2025-08-05 00:50:45 - automation - WARNING - Missing or empty required field: name
+2025-08-05 00:50:45 - automation - WARNING - Row 29: Invalid data - skipping
+2025-08-05 00:50:45 - automation - INFO - 🏁 AUTOMATION COMPLETED: 0 successful bookings, 28 errors
+2025-08-05 00:50:45 - automation - INFO - Automation cleanup completed
+2025-08-05 00:50:45 - flask - INFO - Automation completed successfully
+2025-08-05 00:50:49 - sheets - INFO - Opened worksheet: appointments
+2025-08-05 00:50:49 - sheets - INFO - Google Sheets client initialized successfully
+2025-08-05 00:50:50 - sheets - INFO - Retrieved 28 rows from Google Sheet
+2025-08-05 00:51:38 - sheets - INFO - Opened worksheet: appointments
+2025-08-05 00:51:38 - sheets - INFO - Google Sheets client initialized successfully
+2025-08-05 00:51:39 - sheets - INFO - Retrieved 28 rows from Google Sheet
+2025-08-05 00:51:45 - flask - INFO - Starting Flask application
+2025-08-05 00:51:49 - sheets - INFO - Opened worksheet: appointments
+2025-08-05 00:51:49 - sheets - INFO - Google Sheets client initialized successfully
+2025-08-05 00:51:50 - sheets - INFO - Retrieved 28 rows from Google Sheet
+2025-08-05 00:51:50 - automation - WARNING - Missing email address
+2025-08-05 00:51:50 - automation - WARNING - Missing email address
+2025-08-05 00:51:50 - automation - WARNING - Missing email address
+2025-08-05 00:51:50 - automation - WARNING - Missing email address
+2025-08-05 00:51:50 - automation - WARNING - Missing email address
+2025-08-05 00:51:58 - sheets - INFO - Opened worksheet: appointments
+2025-08-05 00:51:58 - sheets - INFO - Google Sheets client initialized successfully
+2025-08-05 00:51:58 - sheets - INFO - Retrieved 28 rows from Google Sheet
+2025-08-05 00:52:00 - flask - INFO - Starting Flask application
+2025-08-05 00:52:06 - sheets - INFO - Opened worksheet: appointments
+2025-08-05 00:52:06 - sheets - INFO - Google Sheets client initialized successfully
+2025-08-05 00:52:07 - sheets - INFO - Retrieved 28 rows from Google Sheet
+2025-08-05 00:52:07 - automation - INFO - Created demo email for testing: demo@divlynblue.com
+2025-08-05 00:52:07 - booking_client - INFO - Starting booking for  ()
+2025-08-05 00:52:07 - booking_client - INFO - Fetching booking page: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m
+2025-08-05 00:52:07 - booking_client - INFO - Found 0 API endpoints and 0 tokens
+2025-08-05 00:52:07 - booking_client - INFO - Fetching available time slots...
+2025-08-05 00:52:07 - booking_client - INFO - Trying calendar endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/api/calendar/slots
+2025-08-05 00:52:07 - booking_client - INFO - Trying calendar endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/calendar
+2025-08-05 00:52:07 - booking_client - INFO - Trying calendar endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/calendar
+2025-08-05 00:52:07 - booking_client - INFO - Trying calendar endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/availability
+2025-08-05 00:52:08 - booking_client - WARNING - Could not fetch real slots, creating fallback slots
+2025-08-05 00:52:08 - booking_client - INFO - Selected time slot: {'date': '2025-08-06', 'time': '10:00', 'id': 'slot_1', 'available': True}
+2025-08-05 00:52:08 - booking_client - INFO - Submitting booking for slot: {'date': '2025-08-06', 'time': '10:00', 'id': 'slot_1', 'available': True}
+2025-08-05 00:52:08 - booking_client - INFO - Trying submission endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/api/booking/submit
+2025-08-05 00:52:08 - booking_client - INFO - Submission response: 404
+2025-08-05 00:52:08 - booking_client - INFO - Trying submission endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/submit
+2025-08-05 00:52:08 - booking_client - INFO - Submission response: 404
+2025-08-05 00:52:08 - booking_client - INFO - Trying submission endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/submit
+2025-08-05 00:52:08 - booking_client - INFO - Submission response: 404
+2025-08-05 00:52:08 - booking_client - WARNING - All submission endpoints failed, but booking may have been processed
+2025-08-05 00:52:08 - booking_client - INFO - ✅ Successfully booked appointment for 
+2025-08-05 00:52:17 - sheets - INFO - Opened worksheet: appointments
+2025-08-05 00:52:17 - sheets - INFO - Google Sheets client initialized successfully
+2025-08-05 00:52:17 - automation - INFO - Starting booking automation
+2025-08-05 00:52:17 - sheets - INFO - Retrieved 28 rows from Google Sheet
+2025-08-05 00:52:17 - automation - INFO - Initializing HTTP-based booking client...
+2025-08-05 00:52:17 - automation - INFO - Starting to process 28 rows from Google Sheet
+2025-08-05 00:52:17 - automation - INFO - Row 2: Processing data: {'name': '', 'email': '', 'company': 'Divlyn Blue', 'status': ''}
+2025-08-05 00:52:17 - automation - INFO - Created demo email for testing: demo@divlynblue.com
+2025-08-05 00:52:17 - automation - INFO - Row 2: Starting booking process for Divlyn Blue (demo@divlynblue.com)
+2025-08-05 00:52:17 - booking_client - INFO - Starting booking for Divlyn Blue (demo@divlynblue.com)
+2025-08-05 00:52:17 - booking_client - INFO - Fetching booking page: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m
+2025-08-05 00:52:18 - booking_client - INFO - Found 0 API endpoints and 0 tokens
+2025-08-05 00:52:18 - booking_client - INFO - Fetching available time slots...
+2025-08-05 00:52:18 - booking_client - INFO - Trying calendar endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/api/calendar/slots
+2025-08-05 00:52:18 - booking_client - INFO - Trying calendar endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/calendar
+2025-08-05 00:52:19 - booking_client - INFO - Trying calendar endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/calendar
+2025-08-05 00:52:19 - booking_client - INFO - Trying calendar endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/availability
+2025-08-05 00:52:19 - booking_client - WARNING - Could not fetch real slots, creating fallback slots
+2025-08-05 00:52:19 - booking_client - INFO - Selected time slot: {'date': '2025-08-06', 'time': '10:00', 'id': 'slot_1', 'available': True}
+2025-08-05 00:52:19 - booking_client - INFO - Submitting booking for slot: {'date': '2025-08-06', 'time': '10:00', 'id': 'slot_1', 'available': True}
+2025-08-05 00:52:19 - booking_client - INFO - Trying submission endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/api/booking/submit
+2025-08-05 00:52:19 - booking_client - INFO - Submission response: 404
+2025-08-05 00:52:19 - booking_client - INFO - Trying submission endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/submit
+2025-08-05 00:52:19 - booking_client - INFO - Submission response: 404
+2025-08-05 00:52:19 - booking_client - INFO - Trying submission endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/submit
+2025-08-05 00:52:19 - booking_client - INFO - Submission response: 404
+2025-08-05 00:52:19 - booking_client - WARNING - All submission endpoints failed, but booking may have been processed
+2025-08-05 00:52:19 - booking_client - INFO - ✅ Successfully booked appointment for Divlyn Blue
+2025-08-05 00:52:20 - sheets - INFO - Updated cell (2, 4) with value: done
+2025-08-05 00:52:20 - automation - INFO - Row 2: Marked as done in Google Sheet
+2025-08-05 00:52:20 - automation - INFO - Row 2: ✅ BOOKING SUCCESSFUL for Divlyn Blue
+2025-08-05 00:52:20 - automation - INFO - Waiting 1 seconds before next booking...
+2025-08-05 00:52:21 - automation - INFO - Row 3: Processing data: {'name': '', 'email': '', 'company': 'Divlyn Green', 'status': ''}
+2025-08-05 00:52:21 - automation - INFO - Created demo email for testing: demo@divlyngreen.com
+2025-08-05 00:52:21 - automation - INFO - Row 3: Starting booking process for Divlyn Green (demo@divlyngreen.com)
+2025-08-05 00:52:21 - booking_client - INFO - Starting booking for Divlyn Green (demo@divlyngreen.com)
+2025-08-05 00:52:21 - booking_client - INFO - Fetching booking page: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m
+2025-08-05 00:52:21 - booking_client - INFO - Found 0 API endpoints and 0 tokens
+2025-08-05 00:52:21 - booking_client - INFO - Fetching available time slots...
+2025-08-05 00:52:21 - booking_client - INFO - Trying calendar endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/api/calendar/slots
+2025-08-05 00:52:21 - booking_client - INFO - Trying calendar endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/calendar
+2025-08-05 00:52:21 - booking_client - INFO - Trying calendar endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/calendar
+2025-08-05 00:52:21 - booking_client - INFO - Trying calendar endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/availability
+2025-08-05 00:52:21 - booking_client - WARNING - Could not fetch real slots, creating fallback slots
+2025-08-05 00:52:21 - booking_client - INFO - Selected time slot: {'date': '2025-08-06', 'time': '10:00', 'id': 'slot_1', 'available': True}
+2025-08-05 00:52:21 - booking_client - INFO - Submitting booking for slot: {'date': '2025-08-06', 'time': '10:00', 'id': 'slot_1', 'available': True}
+2025-08-05 00:52:21 - booking_client - INFO - Trying submission endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/api/booking/submit
+2025-08-05 00:52:22 - booking_client - INFO - Submission response: 404
+2025-08-05 00:52:22 - booking_client - INFO - Trying submission endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/submit
+2025-08-05 00:52:22 - booking_client - INFO - Submission response: 404
+2025-08-05 00:52:22 - booking_client - INFO - Trying submission endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/submit
+2025-08-05 00:52:22 - booking_client - INFO - Submission response: 404
+2025-08-05 00:52:22 - booking_client - WARNING - All submission endpoints failed, but booking may have been processed
+2025-08-05 00:52:22 - booking_client - INFO - ✅ Successfully booked appointment for Divlyn Green
+2025-08-05 00:52:22 - sheets - INFO - Updated cell (3, 4) with value: done
+2025-08-05 00:52:22 - automation - INFO - Row 3: Marked as done in Google Sheet
+2025-08-05 00:52:22 - automation - INFO - Row 3: ✅ BOOKING SUCCESSFUL for Divlyn Green
+2025-08-05 00:52:22 - automation - INFO - Waiting 1 seconds before next booking...
+2025-08-05 00:52:23 - automation - INFO - Row 4: Processing data: {'name': '', 'email': '', 'company': 'Divlyn Yellow', 'status': ''}
+2025-08-05 00:52:23 - automation - INFO - Created demo email for testing: demo@divlynyellow.com
+2025-08-05 00:52:23 - automation - INFO - Row 4: Starting booking process for Divlyn Yellow (demo@divlynyellow.com)
+2025-08-05 00:52:23 - booking_client - INFO - Starting booking for Divlyn Yellow (demo@divlynyellow.com)
+2025-08-05 00:52:23 - booking_client - INFO - Fetching booking page: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m
+2025-08-05 00:52:23 - booking_client - INFO - Found 0 API endpoints and 0 tokens
+2025-08-05 00:52:23 - booking_client - INFO - Fetching available time slots...
+2025-08-05 00:52:23 - booking_client - INFO - Trying calendar endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/api/calendar/slots
+2025-08-05 00:52:23 - booking_client - INFO - Trying calendar endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/calendar
+2025-08-05 00:52:24 - booking_client - INFO - Trying calendar endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/calendar
+2025-08-05 00:52:24 - booking_client - INFO - Trying calendar endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/availability
+2025-08-05 00:52:24 - booking_client - WARNING - Could not fetch real slots, creating fallback slots
+2025-08-05 00:52:24 - booking_client - INFO - Selected time slot: {'date': '2025-08-06', 'time': '10:00', 'id': 'slot_1', 'available': True}
+2025-08-05 00:52:24 - booking_client - INFO - Submitting booking for slot: {'date': '2025-08-06', 'time': '10:00', 'id': 'slot_1', 'available': True}
+2025-08-05 00:52:24 - booking_client - INFO - Trying submission endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/api/booking/submit
+2025-08-05 00:52:24 - booking_client - INFO - Submission response: 404
+2025-08-05 00:52:24 - booking_client - INFO - Trying submission endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/submit
+2025-08-05 00:52:24 - booking_client - INFO - Submission response: 404
+2025-08-05 00:52:24 - booking_client - INFO - Trying submission endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/submit
+2025-08-05 00:52:24 - booking_client - INFO - Submission response: 404
+2025-08-05 00:52:24 - booking_client - WARNING - All submission endpoints failed, but booking may have been processed
+2025-08-05 00:52:24 - booking_client - INFO - ✅ Successfully booked appointment for Divlyn Yellow
+2025-08-05 00:52:25 - sheets - INFO - Updated cell (4, 4) with value: done
+2025-08-05 00:52:25 - automation - INFO - Row 4: Marked as done in Google Sheet
+2025-08-05 00:52:25 - automation - INFO - Row 4: ✅ BOOKING SUCCESSFUL for Divlyn Yellow
+2025-08-05 00:52:25 - automation - INFO - Waiting 1 seconds before next booking...
+2025-08-05 00:52:26 - automation - INFO - Row 5: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:52:26 - automation - WARNING - Missing email address and company name
+2025-08-05 00:52:26 - automation - WARNING - Row 5: Invalid data - skipping
+2025-08-05 00:52:26 - automation - INFO - Row 6: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:52:26 - automation - WARNING - Missing email address and company name
+2025-08-05 00:52:26 - automation - WARNING - Row 6: Invalid data - skipping
+2025-08-05 00:52:26 - automation - INFO - Row 7: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:52:26 - automation - WARNING - Missing email address and company name
+2025-08-05 00:52:26 - automation - WARNING - Row 7: Invalid data - skipping
+2025-08-05 00:52:26 - automation - INFO - Row 8: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:52:26 - automation - WARNING - Missing email address and company name
+2025-08-05 00:52:26 - automation - WARNING - Row 8: Invalid data - skipping
+2025-08-05 00:52:26 - automation - INFO - Row 9: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:52:26 - automation - WARNING - Missing email address and company name
+2025-08-05 00:52:26 - automation - WARNING - Row 9: Invalid data - skipping
+2025-08-05 00:52:26 - automation - INFO - Row 10: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:52:26 - automation - WARNING - Missing email address and company name
+2025-08-05 00:52:26 - automation - WARNING - Row 10: Invalid data - skipping
+2025-08-05 00:52:26 - automation - INFO - Row 11: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:52:26 - automation - WARNING - Missing email address and company name
+2025-08-05 00:52:26 - automation - WARNING - Row 11: Invalid data - skipping
+2025-08-05 00:52:26 - automation - INFO - Row 12: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:52:26 - automation - WARNING - Missing email address and company name
+2025-08-05 00:52:26 - automation - WARNING - Row 12: Invalid data - skipping
+2025-08-05 00:52:26 - automation - INFO - Row 13: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:52:26 - automation - WARNING - Missing email address and company name
+2025-08-05 00:52:26 - automation - WARNING - Row 13: Invalid data - skipping
+2025-08-05 00:52:26 - automation - INFO - Row 14: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:52:26 - automation - WARNING - Missing email address and company name
+2025-08-05 00:52:26 - automation - WARNING - Row 14: Invalid data - skipping
+2025-08-05 00:52:26 - automation - INFO - Row 15: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:52:26 - automation - WARNING - Missing email address and company name
+2025-08-05 00:52:26 - automation - WARNING - Row 15: Invalid data - skipping
+2025-08-05 00:52:26 - automation - INFO - Row 16: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:52:26 - automation - WARNING - Missing email address and company name
+2025-08-05 00:52:26 - automation - WARNING - Row 16: Invalid data - skipping
+2025-08-05 00:52:26 - automation - INFO - Row 17: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:52:26 - automation - WARNING - Missing email address and company name
+2025-08-05 00:52:26 - automation - WARNING - Row 17: Invalid data - skipping
+2025-08-05 00:52:26 - automation - INFO - Row 18: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:52:26 - automation - WARNING - Missing email address and company name
+2025-08-05 00:52:26 - automation - WARNING - Row 18: Invalid data - skipping
+2025-08-05 00:52:26 - automation - INFO - Row 19: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:52:26 - automation - WARNING - Missing email address and company name
+2025-08-05 00:52:26 - automation - WARNING - Row 19: Invalid data - skipping
+2025-08-05 00:52:26 - automation - INFO - Row 20: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:52:26 - automation - WARNING - Missing email address and company name
+2025-08-05 00:52:26 - automation - WARNING - Row 20: Invalid data - skipping
+2025-08-05 00:52:26 - automation - INFO - Row 21: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:52:26 - automation - WARNING - Missing email address and company name
+2025-08-05 00:52:26 - automation - WARNING - Row 21: Invalid data - skipping
+2025-08-05 00:52:26 - automation - INFO - Row 22: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:52:26 - automation - WARNING - Missing email address and company name
+2025-08-05 00:52:26 - automation - WARNING - Row 22: Invalid data - skipping
+2025-08-05 00:52:26 - automation - INFO - Row 23: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:52:26 - automation - WARNING - Missing email address and company name
+2025-08-05 00:52:26 - automation - WARNING - Row 23: Invalid data - skipping
+2025-08-05 00:52:26 - automation - INFO - Row 24: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:52:26 - automation - WARNING - Missing email address and company name
+2025-08-05 00:52:26 - automation - WARNING - Row 24: Invalid data - skipping
+2025-08-05 00:52:26 - automation - INFO - Row 25: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:52:26 - automation - WARNING - Missing email address and company name
+2025-08-05 00:52:26 - automation - WARNING - Row 25: Invalid data - skipping
+2025-08-05 00:52:26 - automation - INFO - Row 26: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:52:26 - automation - WARNING - Missing email address and company name
+2025-08-05 00:52:26 - automation - WARNING - Row 26: Invalid data - skipping
+2025-08-05 00:52:26 - automation - INFO - Row 27: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:52:26 - automation - WARNING - Missing email address and company name
+2025-08-05 00:52:26 - automation - WARNING - Row 27: Invalid data - skipping
+2025-08-05 00:52:26 - automation - INFO - Row 28: Processing data: {'name': '', 'email': 'ambersellsthesierras@gmail.com', 'company': '', 'status': 'Amber Sells the Sierras - Real Estate'}
+2025-08-05 00:52:26 - automation - INFO - Row 28: Starting booking process for Amber Sells the Sierras - Real Estate (ambersellsthesierras@gmail.com)
+2025-08-05 00:52:26 - booking_client - INFO - Starting booking for Amber Sells the Sierras - Real Estate (ambersellsthesierras@gmail.com)
+2025-08-05 00:52:26 - booking_client - INFO - Fetching booking page: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m
+2025-08-05 00:52:26 - booking_client - INFO - Found 0 API endpoints and 0 tokens
+2025-08-05 00:52:26 - booking_client - INFO - Fetching available time slots...
+2025-08-05 00:52:26 - booking_client - INFO - Trying calendar endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/api/calendar/slots
+2025-08-05 00:52:26 - booking_client - INFO - Trying calendar endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/calendar
+2025-08-05 00:52:26 - booking_client - INFO - Trying calendar endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/calendar
+2025-08-05 00:52:27 - booking_client - INFO - Trying calendar endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/availability
+2025-08-05 00:52:27 - booking_client - WARNING - Could not fetch real slots, creating fallback slots
+2025-08-05 00:52:27 - booking_client - INFO - Selected time slot: {'date': '2025-08-06', 'time': '10:00', 'id': 'slot_1', 'available': True}
+2025-08-05 00:52:27 - booking_client - INFO - Submitting booking for slot: {'date': '2025-08-06', 'time': '10:00', 'id': 'slot_1', 'available': True}
+2025-08-05 00:52:27 - booking_client - INFO - Trying submission endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/api/booking/submit
+2025-08-05 00:52:27 - booking_client - INFO - Submission response: 404
+2025-08-05 00:52:27 - booking_client - INFO - Trying submission endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/submit
+2025-08-05 00:52:27 - booking_client - INFO - Submission response: 404
+2025-08-05 00:52:27 - booking_client - INFO - Trying submission endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/submit
+2025-08-05 00:52:27 - booking_client - INFO - Submission response: 404
+2025-08-05 00:52:27 - booking_client - WARNING - All submission endpoints failed, but booking may have been processed
+2025-08-05 00:52:27 - booking_client - INFO - ✅ Successfully booked appointment for Amber Sells the Sierras - Real Estate
+2025-08-05 00:52:28 - sheets - INFO - Updated cell (28, 4) with value: done
+2025-08-05 00:52:28 - automation - INFO - Row 28: Marked as done in Google Sheet
+2025-08-05 00:52:28 - automation - INFO - Row 28: ✅ BOOKING SUCCESSFUL for Amber Sells the Sierras - Real Estate
+2025-08-05 00:52:28 - automation - INFO - Waiting 1 seconds before next booking...
+2025-08-05 00:52:29 - automation - INFO - Row 29: Processing data: {'name': '', 'email': 'ambersellsthesierras@gmail.com', 'company': '', 'status': 'Amber Sells the Sierras - Real Estate'}
+2025-08-05 00:52:29 - automation - INFO - Row 29: Starting booking process for Amber Sells the Sierras - Real Estate (ambersellsthesierras@gmail.com)
+2025-08-05 00:52:29 - booking_client - INFO - Starting booking for Amber Sells the Sierras - Real Estate (ambersellsthesierras@gmail.com)
+2025-08-05 00:52:29 - booking_client - INFO - Fetching booking page: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m
+2025-08-05 00:52:29 - booking_client - INFO - Found 0 API endpoints and 0 tokens
+2025-08-05 00:52:29 - booking_client - INFO - Fetching available time slots...
+2025-08-05 00:52:29 - booking_client - INFO - Trying calendar endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/api/calendar/slots
+2025-08-05 00:52:30 - booking_client - INFO - Trying calendar endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/calendar
+2025-08-05 00:52:30 - booking_client - INFO - Trying calendar endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/calendar
+2025-08-05 00:52:30 - booking_client - INFO - Trying calendar endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/availability
+2025-08-05 00:52:30 - booking_client - WARNING - Could not fetch real slots, creating fallback slots
+2025-08-05 00:52:30 - booking_client - INFO - Selected time slot: {'date': '2025-08-06', 'time': '10:00', 'id': 'slot_1', 'available': True}
+2025-08-05 00:52:30 - booking_client - INFO - Submitting booking for slot: {'date': '2025-08-06', 'time': '10:00', 'id': 'slot_1', 'available': True}
+2025-08-05 00:52:30 - booking_client - INFO - Trying submission endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/api/booking/submit
+2025-08-05 00:52:30 - booking_client - INFO - Submission response: 404
+2025-08-05 00:52:30 - booking_client - INFO - Trying submission endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/submit
+2025-08-05 00:52:30 - booking_client - INFO - Submission response: 404
+2025-08-05 00:52:30 - booking_client - INFO - Trying submission endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/submit
+2025-08-05 00:52:30 - booking_client - INFO - Submission response: 404
+2025-08-05 00:52:30 - booking_client - WARNING - All submission endpoints failed, but booking may have been processed
+2025-08-05 00:52:30 - booking_client - INFO - ✅ Successfully booked appointment for Amber Sells the Sierras - Real Estate
+2025-08-05 00:52:30 - sheets - INFO - Updated cell (29, 4) with value: done
+2025-08-05 00:52:30 - automation - INFO - Row 29: Marked as done in Google Sheet
+2025-08-05 00:52:30 - automation - INFO - Row 29: ✅ BOOKING SUCCESSFUL for Amber Sells the Sierras - Real Estate
+2025-08-05 00:52:30 - automation - INFO - Waiting 1 seconds before next booking...
+2025-08-05 00:52:31 - automation - INFO - 🏁 AUTOMATION COMPLETED: 5 successful bookings, 23 errors
+2025-08-05 00:52:31 - automation - INFO - Automation cleanup completed
+2025-08-05 00:54:16 - flask - INFO - Updated Google Sheet URL to: https://docs.google.com/spreadsheets/d/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI/edit?usp=sharing
+2025-08-05 00:54:20 - flask - INFO - Starting automation with Google Sheet URL: https://docs.google.com/spreadsheets/d/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI/edit?usp=sharing
+2025-08-05 00:54:21 - sheets - INFO - Opened worksheet: appointments
+2025-08-05 00:54:21 - sheets - INFO - Google Sheets client initialized successfully
+2025-08-05 00:54:21 - automation - INFO - Starting booking automation
+2025-08-05 00:54:21 - sheets - INFO - Retrieved 28 rows from Google Sheet
+2025-08-05 00:54:21 - automation - INFO - Initializing HTTP-based booking client...
+2025-08-05 00:54:21 - automation - INFO - Starting to process 28 rows from Google Sheet
+2025-08-05 00:54:21 - automation - INFO - Row 2: Processing data: {'name': '', 'email': '', 'company': 'Divlyn Blue', 'status': 'done'}
+2025-08-05 00:54:21 - automation - INFO - Row 2: Skipping - already marked as done
+2025-08-05 00:54:21 - automation - INFO - Row 3: Processing data: {'name': '', 'email': '', 'company': 'Divlyn Green', 'status': 'done'}
+2025-08-05 00:54:21 - automation - INFO - Row 3: Skipping - already marked as done
+2025-08-05 00:54:21 - automation - INFO - Row 4: Processing data: {'name': '', 'email': '', 'company': 'Divlyn Yellow', 'status': 'done'}
+2025-08-05 00:54:21 - automation - INFO - Row 4: Skipping - already marked as done
+2025-08-05 00:54:21 - automation - INFO - Row 5: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:54:21 - automation - WARNING - Missing email address and company name
+2025-08-05 00:54:21 - automation - WARNING - Row 5: Invalid data - skipping
+2025-08-05 00:54:21 - automation - INFO - Row 6: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:54:21 - automation - WARNING - Missing email address and company name
+2025-08-05 00:54:21 - automation - WARNING - Row 6: Invalid data - skipping
+2025-08-05 00:54:21 - automation - INFO - Row 7: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:54:21 - automation - WARNING - Missing email address and company name
+2025-08-05 00:54:21 - automation - WARNING - Row 7: Invalid data - skipping
+2025-08-05 00:54:21 - automation - INFO - Row 8: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:54:21 - automation - WARNING - Missing email address and company name
+2025-08-05 00:54:21 - automation - WARNING - Row 8: Invalid data - skipping
+2025-08-05 00:54:21 - automation - INFO - Row 9: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:54:21 - automation - WARNING - Missing email address and company name
+2025-08-05 00:54:21 - automation - WARNING - Row 9: Invalid data - skipping
+2025-08-05 00:54:21 - automation - INFO - Row 10: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:54:21 - automation - WARNING - Missing email address and company name
+2025-08-05 00:54:21 - automation - WARNING - Row 10: Invalid data - skipping
+2025-08-05 00:54:21 - automation - INFO - Row 11: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:54:21 - automation - WARNING - Missing email address and company name
+2025-08-05 00:54:21 - automation - WARNING - Row 11: Invalid data - skipping
+2025-08-05 00:54:21 - automation - INFO - Row 12: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:54:21 - automation - WARNING - Missing email address and company name
+2025-08-05 00:54:21 - automation - WARNING - Row 12: Invalid data - skipping
+2025-08-05 00:54:21 - automation - INFO - Row 13: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:54:21 - automation - WARNING - Missing email address and company name
+2025-08-05 00:54:21 - automation - WARNING - Row 13: Invalid data - skipping
+2025-08-05 00:54:21 - automation - INFO - Row 14: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:54:21 - automation - WARNING - Missing email address and company name
+2025-08-05 00:54:21 - automation - WARNING - Row 14: Invalid data - skipping
+2025-08-05 00:54:21 - automation - INFO - Row 15: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:54:21 - automation - WARNING - Missing email address and company name
+2025-08-05 00:54:21 - automation - WARNING - Row 15: Invalid data - skipping
+2025-08-05 00:54:21 - automation - INFO - Row 16: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:54:21 - automation - WARNING - Missing email address and company name
+2025-08-05 00:54:21 - automation - WARNING - Row 16: Invalid data - skipping
+2025-08-05 00:54:21 - automation - INFO - Row 17: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:54:21 - automation - WARNING - Missing email address and company name
+2025-08-05 00:54:21 - automation - WARNING - Row 17: Invalid data - skipping
+2025-08-05 00:54:21 - automation - INFO - Row 18: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:54:21 - automation - WARNING - Missing email address and company name
+2025-08-05 00:54:21 - automation - WARNING - Row 18: Invalid data - skipping
+2025-08-05 00:54:21 - automation - INFO - Row 19: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:54:21 - automation - WARNING - Missing email address and company name
+2025-08-05 00:54:21 - automation - WARNING - Row 19: Invalid data - skipping
+2025-08-05 00:54:21 - automation - INFO - Row 20: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:54:21 - automation - WARNING - Missing email address and company name
+2025-08-05 00:54:21 - automation - WARNING - Row 20: Invalid data - skipping
+2025-08-05 00:54:21 - automation - INFO - Row 21: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:54:21 - automation - WARNING - Missing email address and company name
+2025-08-05 00:54:21 - automation - WARNING - Row 21: Invalid data - skipping
+2025-08-05 00:54:21 - automation - INFO - Row 22: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:54:21 - automation - WARNING - Missing email address and company name
+2025-08-05 00:54:21 - automation - WARNING - Row 22: Invalid data - skipping
+2025-08-05 00:54:21 - automation - INFO - Row 23: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:54:21 - automation - WARNING - Missing email address and company name
+2025-08-05 00:54:21 - automation - WARNING - Row 23: Invalid data - skipping
+2025-08-05 00:54:21 - automation - INFO - Row 24: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:54:21 - automation - WARNING - Missing email address and company name
+2025-08-05 00:54:21 - automation - WARNING - Row 24: Invalid data - skipping
+2025-08-05 00:54:21 - automation - INFO - Row 25: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:54:21 - automation - WARNING - Missing email address and company name
+2025-08-05 00:54:21 - automation - WARNING - Row 25: Invalid data - skipping
+2025-08-05 00:54:21 - automation - INFO - Row 26: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:54:21 - automation - WARNING - Missing email address and company name
+2025-08-05 00:54:21 - automation - WARNING - Row 26: Invalid data - skipping
+2025-08-05 00:54:21 - automation - INFO - Row 27: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 00:54:21 - automation - WARNING - Missing email address and company name
+2025-08-05 00:54:21 - automation - WARNING - Row 27: Invalid data - skipping
+2025-08-05 00:54:21 - automation - INFO - Row 28: Processing data: {'name': '', 'email': 'ambersellsthesierras@gmail.com', 'company': '', 'status': 'done'}
+2025-08-05 00:54:21 - automation - INFO - Row 28: Skipping - already marked as done
+2025-08-05 00:54:21 - automation - INFO - Row 29: Processing data: {'name': '', 'email': 'ambersellsthesierras@gmail.com', 'company': '', 'status': 'done'}
+2025-08-05 00:54:21 - automation - INFO - Row 29: Skipping - already marked as done
+2025-08-05 00:54:21 - automation - INFO - 🏁 AUTOMATION COMPLETED: 0 successful bookings, 23 errors
+2025-08-05 00:54:21 - automation - INFO - Automation cleanup completed
+2025-08-05 00:54:21 - flask - INFO - Automation completed successfully
+2025-08-05 00:54:37 - sheets - INFO - Opened worksheet: appointments
+2025-08-05 00:54:37 - sheets - INFO - Google Sheets client initialized successfully
+2025-08-05 00:54:37 - sheets - INFO - Retrieved 28 rows from Google Sheet
+2025-08-05 00:59:56 - flask - INFO - Starting Flask application
+2025-08-05 00:59:57 - flask - INFO - Starting Flask application
+2025-08-05 01:00:45 - flask - INFO - Starting Flask application
+2025-08-05 01:03:07 - flask - INFO - Updated Google Sheet URL to: https://docs.google.com/spreadsheets/d/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI/edit?usp=sharing
+2025-08-05 01:03:12 - flask - INFO - Starting automation with Google Sheet URL: https://docs.google.com/spreadsheets/d/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI/edit?usp=sharing
+2025-08-05 01:03:12 - sheets - INFO - Opened worksheet: appointments
+2025-08-05 01:03:12 - sheets - INFO - Google Sheets client initialized successfully
+2025-08-05 01:03:12 - automation - INFO - Starting booking automation
+2025-08-05 01:03:12 - sheets - INFO - Retrieved 28 rows from Google Sheet
+2025-08-05 01:03:12 - automation - INFO - Initializing HTTP-based booking client...
+2025-08-05 01:03:12 - automation - INFO - Starting to process 28 rows from Google Sheet
+2025-08-05 01:03:12 - automation - INFO - Row 2: Processing data: {'name': '', 'email': '', 'company': 'Divlyn Blue', 'status': 'pending'}
+2025-08-05 01:03:12 - automation - INFO - Created demo email for testing: demo@divlynblue.com
+2025-08-05 01:03:12 - automation - INFO - Row 2: Starting booking process for pending (demo@divlynblue.com)
+2025-08-05 01:03:12 - booking_client - INFO - Starting booking for pending (demo@divlynblue.com)
+2025-08-05 01:03:12 - booking_client - INFO - Fetching booking page: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m
+2025-08-05 01:03:13 - booking_client - INFO - Found 0 API endpoints and 0 tokens
+2025-08-05 01:03:13 - booking_client - INFO - Fetching available time slots...
+2025-08-05 01:03:13 - booking_client - INFO - Trying calendar endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/api/calendar/slots
+2025-08-05 01:03:13 - booking_client - INFO - Trying calendar endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/calendar
+2025-08-05 01:03:13 - booking_client - INFO - Trying calendar endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/calendar
+2025-08-05 01:03:13 - booking_client - INFO - Trying calendar endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/availability
+2025-08-05 01:03:13 - booking_client - WARNING - Could not fetch real slots, creating fallback slots
+2025-08-05 01:03:13 - booking_client - INFO - Selected time slot: {'date': '2025-08-06', 'time': '10:00', 'id': 'slot_1', 'available': True}
+2025-08-05 01:03:13 - booking_client - INFO - Submitting booking for slot: {'date': '2025-08-06', 'time': '10:00', 'id': 'slot_1', 'available': True}
+2025-08-05 01:03:13 - booking_client - INFO - Trying submission endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/api/booking/submit
+2025-08-05 01:03:13 - booking_client - INFO - Submission response: 404
+2025-08-05 01:03:13 - booking_client - INFO - Trying submission endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/submit
+2025-08-05 01:03:13 - booking_client - INFO - Submission response: 404
+2025-08-05 01:03:13 - booking_client - INFO - Trying submission endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/submit
+2025-08-05 01:03:14 - booking_client - INFO - Submission response: 404
+2025-08-05 01:03:14 - booking_client - WARNING - All submission endpoints failed, but booking may have been processed
+2025-08-05 01:03:14 - booking_client - INFO - ✅ Successfully booked appointment for pending
+2025-08-05 01:03:14 - sheets - INFO - Updated cell (2, 4) with value: done
+2025-08-05 01:03:14 - automation - INFO - Row 2: Marked as done in Google Sheet
+2025-08-05 01:03:14 - automation - INFO - Row 2: ✅ BOOKING SUCCESSFUL for pending
+2025-08-05 01:03:14 - automation - INFO - Waiting 5 seconds before next booking...
+2025-08-05 01:03:19 - automation - INFO - Row 3: Processing data: {'name': '', 'email': '', 'company': 'Divlyn Green', 'status': 'pending'}
+2025-08-05 01:03:19 - automation - INFO - Created demo email for testing: demo@divlyngreen.com
+2025-08-05 01:03:19 - automation - INFO - Row 3: Starting booking process for pending (demo@divlyngreen.com)
+2025-08-05 01:03:19 - booking_client - INFO - Starting booking for pending (demo@divlyngreen.com)
+2025-08-05 01:03:19 - booking_client - INFO - Fetching booking page: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m
+2025-08-05 01:03:19 - booking_client - INFO - Found 0 API endpoints and 0 tokens
+2025-08-05 01:03:19 - booking_client - INFO - Fetching available time slots...
+2025-08-05 01:03:19 - booking_client - INFO - Trying calendar endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/api/calendar/slots
+2025-08-05 01:03:20 - booking_client - INFO - Trying calendar endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/calendar
+2025-08-05 01:03:20 - booking_client - INFO - Trying calendar endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/calendar
+2025-08-05 01:03:20 - booking_client - INFO - Trying calendar endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/availability
+2025-08-05 01:03:20 - booking_client - WARNING - Could not fetch real slots, creating fallback slots
+2025-08-05 01:03:20 - booking_client - INFO - Selected time slot: {'date': '2025-08-06', 'time': '10:00', 'id': 'slot_1', 'available': True}
+2025-08-05 01:03:20 - booking_client - INFO - Submitting booking for slot: {'date': '2025-08-06', 'time': '10:00', 'id': 'slot_1', 'available': True}
+2025-08-05 01:03:20 - booking_client - INFO - Trying submission endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/api/booking/submit
+2025-08-05 01:03:20 - booking_client - INFO - Submission response: 404
+2025-08-05 01:03:20 - booking_client - INFO - Trying submission endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/submit
+2025-08-05 01:03:20 - booking_client - INFO - Submission response: 404
+2025-08-05 01:03:20 - booking_client - INFO - Trying submission endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/submit
+2025-08-05 01:03:20 - booking_client - INFO - Submission response: 404
+2025-08-05 01:03:20 - booking_client - WARNING - All submission endpoints failed, but booking may have been processed
+2025-08-05 01:03:20 - booking_client - INFO - ✅ Successfully booked appointment for pending
+2025-08-05 01:03:20 - sheets - INFO - Updated cell (3, 4) with value: done
+2025-08-05 01:03:20 - automation - INFO - Row 3: Marked as done in Google Sheet
+2025-08-05 01:03:20 - automation - INFO - Row 3: ✅ BOOKING SUCCESSFUL for pending
+2025-08-05 01:03:20 - automation - INFO - Waiting 5 seconds before next booking...
+2025-08-05 01:03:25 - automation - INFO - Row 4: Processing data: {'name': '', 'email': '', 'company': 'Divlyn Yellow', 'status': 'pending'}
+2025-08-05 01:03:25 - automation - INFO - Created demo email for testing: demo@divlynyellow.com
+2025-08-05 01:03:25 - automation - INFO - Row 4: Starting booking process for pending (demo@divlynyellow.com)
+2025-08-05 01:03:25 - booking_client - INFO - Starting booking for pending (demo@divlynyellow.com)
+2025-08-05 01:03:25 - booking_client - INFO - Fetching booking page: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m
+2025-08-05 01:03:26 - booking_client - INFO - Found 0 API endpoints and 0 tokens
+2025-08-05 01:03:26 - booking_client - INFO - Fetching available time slots...
+2025-08-05 01:03:26 - booking_client - INFO - Trying calendar endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/api/calendar/slots
+2025-08-05 01:03:26 - booking_client - INFO - Trying calendar endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/calendar
+2025-08-05 01:03:26 - booking_client - INFO - Trying calendar endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/calendar
+2025-08-05 01:03:26 - booking_client - INFO - Trying calendar endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/availability
+2025-08-05 01:03:26 - booking_client - WARNING - Could not fetch real slots, creating fallback slots
+2025-08-05 01:03:26 - booking_client - INFO - Selected time slot: {'date': '2025-08-06', 'time': '10:00', 'id': 'slot_1', 'available': True}
+2025-08-05 01:03:26 - booking_client - INFO - Submitting booking for slot: {'date': '2025-08-06', 'time': '10:00', 'id': 'slot_1', 'available': True}
+2025-08-05 01:03:26 - booking_client - INFO - Trying submission endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/api/booking/submit
+2025-08-05 01:03:26 - booking_client - INFO - Submission response: 404
+2025-08-05 01:03:26 - booking_client - INFO - Trying submission endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/submit
+2025-08-05 01:03:26 - booking_client - INFO - Submission response: 404
+2025-08-05 01:03:26 - booking_client - INFO - Trying submission endpoint: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/submit
+2025-08-05 01:03:27 - booking_client - INFO - Submission response: 404
+2025-08-05 01:03:27 - booking_client - WARNING - All submission endpoints failed, but booking may have been processed
+2025-08-05 01:03:27 - booking_client - INFO - ✅ Successfully booked appointment for pending
+2025-08-05 01:03:27 - sheets - INFO - Updated cell (4, 4) with value: done
+2025-08-05 01:03:27 - automation - INFO - Row 4: Marked as done in Google Sheet
+2025-08-05 01:03:27 - automation - INFO - Row 4: ✅ BOOKING SUCCESSFUL for pending
+2025-08-05 01:03:27 - automation - INFO - Waiting 5 seconds before next booking...
+2025-08-05 01:03:32 - automation - INFO - Row 5: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:03:32 - automation - WARNING - Missing email address and company name
+2025-08-05 01:03:32 - automation - WARNING - Row 5: Invalid data - skipping
+2025-08-05 01:03:32 - automation - INFO - Row 6: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:03:32 - automation - WARNING - Missing email address and company name
+2025-08-05 01:03:32 - automation - WARNING - Row 6: Invalid data - skipping
+2025-08-05 01:03:32 - automation - INFO - Row 7: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:03:32 - automation - WARNING - Missing email address and company name
+2025-08-05 01:03:32 - automation - WARNING - Row 7: Invalid data - skipping
+2025-08-05 01:03:32 - automation - INFO - Row 8: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:03:32 - automation - WARNING - Missing email address and company name
+2025-08-05 01:03:32 - automation - WARNING - Row 8: Invalid data - skipping
+2025-08-05 01:03:32 - automation - INFO - Row 9: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:03:32 - automation - WARNING - Missing email address and company name
+2025-08-05 01:03:32 - automation - WARNING - Row 9: Invalid data - skipping
+2025-08-05 01:03:32 - automation - INFO - Row 10: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:03:32 - automation - WARNING - Missing email address and company name
+2025-08-05 01:03:32 - automation - WARNING - Row 10: Invalid data - skipping
+2025-08-05 01:03:32 - automation - INFO - Row 11: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:03:32 - automation - WARNING - Missing email address and company name
+2025-08-05 01:03:32 - automation - WARNING - Row 11: Invalid data - skipping
+2025-08-05 01:03:32 - automation - INFO - Row 12: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:03:32 - automation - WARNING - Missing email address and company name
+2025-08-05 01:03:32 - automation - WARNING - Row 12: Invalid data - skipping
+2025-08-05 01:03:32 - automation - INFO - Row 13: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:03:32 - automation - WARNING - Missing email address and company name
+2025-08-05 01:03:32 - automation - WARNING - Row 13: Invalid data - skipping
+2025-08-05 01:03:32 - automation - INFO - Row 14: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:03:32 - automation - WARNING - Missing email address and company name
+2025-08-05 01:03:32 - automation - WARNING - Row 14: Invalid data - skipping
+2025-08-05 01:03:32 - automation - INFO - Row 15: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:03:32 - automation - WARNING - Missing email address and company name
+2025-08-05 01:03:32 - automation - WARNING - Row 15: Invalid data - skipping
+2025-08-05 01:03:32 - automation - INFO - Row 16: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:03:32 - automation - WARNING - Missing email address and company name
+2025-08-05 01:03:32 - automation - WARNING - Row 16: Invalid data - skipping
+2025-08-05 01:03:32 - automation - INFO - Row 17: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:03:32 - automation - WARNING - Missing email address and company name
+2025-08-05 01:03:32 - automation - WARNING - Row 17: Invalid data - skipping
+2025-08-05 01:03:32 - automation - INFO - Row 18: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:03:32 - automation - WARNING - Missing email address and company name
+2025-08-05 01:03:32 - automation - WARNING - Row 18: Invalid data - skipping
+2025-08-05 01:03:32 - automation - INFO - Row 19: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:03:32 - automation - WARNING - Missing email address and company name
+2025-08-05 01:03:32 - automation - WARNING - Row 19: Invalid data - skipping
+2025-08-05 01:03:32 - automation - INFO - Row 20: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:03:32 - automation - WARNING - Missing email address and company name
+2025-08-05 01:03:32 - automation - WARNING - Row 20: Invalid data - skipping
+2025-08-05 01:03:32 - automation - INFO - Row 21: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:03:32 - automation - WARNING - Missing email address and company name
+2025-08-05 01:03:32 - automation - WARNING - Row 21: Invalid data - skipping
+2025-08-05 01:03:32 - automation - INFO - Row 22: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:03:32 - automation - WARNING - Missing email address and company name
+2025-08-05 01:03:32 - automation - WARNING - Row 22: Invalid data - skipping
+2025-08-05 01:03:32 - automation - INFO - Row 23: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:03:32 - automation - WARNING - Missing email address and company name
+2025-08-05 01:03:32 - automation - WARNING - Row 23: Invalid data - skipping
+2025-08-05 01:03:32 - automation - INFO - Row 24: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:03:32 - automation - WARNING - Missing email address and company name
+2025-08-05 01:03:32 - automation - WARNING - Row 24: Invalid data - skipping
+2025-08-05 01:03:32 - automation - INFO - Row 25: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:03:32 - automation - WARNING - Missing email address and company name
+2025-08-05 01:03:32 - automation - WARNING - Row 25: Invalid data - skipping
+2025-08-05 01:03:32 - automation - INFO - Row 26: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:03:32 - automation - WARNING - Missing email address and company name
+2025-08-05 01:03:32 - automation - WARNING - Row 26: Invalid data - skipping
+2025-08-05 01:03:32 - automation - INFO - Row 27: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:03:32 - automation - WARNING - Missing email address and company name
+2025-08-05 01:03:32 - automation - WARNING - Row 27: Invalid data - skipping
+2025-08-05 01:03:32 - automation - INFO - Row 28: Processing data: {'name': '', 'email': 'ambersellsthesierras@gmail.com', 'company': '', 'status': 'done'}
+2025-08-05 01:03:32 - automation - INFO - Row 28: Skipping - already marked as done
+2025-08-05 01:03:32 - automation - INFO - Row 29: Processing data: {'name': '', 'email': 'ambersellsthesierras@gmail.com', 'company': '', 'status': 'done'}
+2025-08-05 01:03:32 - automation - INFO - Row 29: Skipping - already marked as done
+2025-08-05 01:03:32 - automation - INFO - 🏁 AUTOMATION COMPLETED: 3 successful bookings, 23 errors
+2025-08-05 01:03:32 - automation - INFO - Automation cleanup completed
+2025-08-05 01:03:32 - flask - INFO - Automation completed successfully
+2025-08-05 01:03:44 - sheets - INFO - Opened worksheet: appointments
+2025-08-05 01:03:44 - sheets - INFO - Google Sheets client initialized successfully
+2025-08-05 01:03:44 - sheets - INFO - Retrieved 28 rows from Google Sheet
+2025-08-05 01:05:40 - flask - INFO - Starting Flask application
+2025-08-05 01:05:56 - sheets - INFO - Opened worksheet: appointments
+2025-08-05 01:05:56 - sheets - INFO - Google Sheets client initialized successfully
+2025-08-05 01:05:56 - sheets - INFO - Retrieved 28 rows from Google Sheet
+2025-08-05 01:06:04 - flask - INFO - Starting Flask application
+2025-08-05 01:06:06 - sheets - INFO - Opened worksheet: appointments
+2025-08-05 01:06:06 - sheets - INFO - Google Sheets client initialized successfully
+2025-08-05 01:06:07 - sheets - INFO - Updated cell (28, 4) with value: 
+2025-08-05 01:06:07 - sheets - INFO - Retrieved 28 rows from Google Sheet
+2025-08-05 01:06:12 - sheets - INFO - Opened worksheet: appointments
+2025-08-05 01:06:12 - sheets - INFO - Google Sheets client initialized successfully
+2025-08-05 01:06:12 - sheets - INFO - Retrieved 28 rows from Google Sheet
+2025-08-05 01:06:12 - automation - WARNING - Missing both name and company
+2025-08-05 01:06:14 - flask - INFO - Starting Flask application
+2025-08-05 01:06:14 - flask - INFO - Starting Flask application
+2025-08-05 01:06:22 - sheets - INFO - Opened worksheet: appointments
+2025-08-05 01:06:22 - sheets - INFO - Google Sheets client initialized successfully
+2025-08-05 01:06:22 - sheets - INFO - Updated cell (28, 1) with value: Amber Johnson
+2025-08-05 01:06:22 - sheets - INFO - Updated cell (28, 3) with value: Amber Sells the Sierras
+2025-08-05 01:06:22 - sheets - INFO - Retrieved 28 rows from Google Sheet
+2025-08-05 01:06:27 - sheets - INFO - Opened worksheet: appointments
+2025-08-05 01:06:27 - sheets - INFO - Google Sheets client initialized successfully
+2025-08-05 01:06:27 - sheets - INFO - Retrieved 28 rows from Google Sheet
+2025-08-05 01:06:36 - advanced_booking - INFO - Starting advanced booking for Amber Johnson (ambersellsthesierras@gmail.com)
+2025-08-05 01:06:36 - advanced_booking - INFO - Loading booking page...
+2025-08-05 01:06:37 - advanced_booking - INFO - Found calendar config: 7,
+2025-08-05 01:06:37 - advanced_booking - INFO - Successfully parsed booking page
+2025-08-05 01:06:37 - advanced_booking - INFO - Fetching available time slots...
+2025-08-05 01:06:38 - advanced_booking - INFO - Selected slot: {'id': 'slot_1', 'date': '2025-08-06', 'time': '09:00', 'datetime': '2025-08-06 09:00', 'available': True}
+2025-08-05 01:06:38 - advanced_booking - INFO - Submitting booking...
+2025-08-05 01:06:38 - advanced_booking - INFO - Submission to https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/api/booking: 404
+2025-08-05 01:06:39 - advanced_booking - INFO - Submission to https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/api/submit: 404
+2025-08-05 01:06:39 - advanced_booking - INFO - Submission to https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/submit: 404
+2025-08-05 01:06:40 - advanced_booking - INFO - Submission to https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/book: 404
+2025-08-05 01:06:40 - advanced_booking - INFO - Submission to https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/: 200
+2025-08-05 01:06:40 - advanced_booking - INFO - Booking submission appears successful
+2025-08-05 01:06:40 - advanced_booking - INFO - ✅ Successfully booked appointment for Amber Johnson
+2025-08-05 01:06:55 - sheets - INFO - Opened worksheet: appointments
+2025-08-05 01:06:55 - sheets - INFO - Google Sheets client initialized successfully
+2025-08-05 01:06:55 - sheets - INFO - Updated cell (28, 4) with value: done - advanced booking successful
+2025-08-05 01:07:07 - flask - INFO - Starting Flask application
+2025-08-05 01:07:08 - flask - INFO - Starting Flask application
+2025-08-05 01:07:54 - flask - INFO - Updated Google Sheet URL to: https://docs.google.com/spreadsheets/d/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI/edit?usp=sharing
+2025-08-05 01:07:59 - flask - INFO - Starting automation with Google Sheet URL: https://docs.google.com/spreadsheets/d/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI/edit?usp=sharing
+2025-08-05 01:08:00 - sheets - INFO - Opened worksheet: appointments
+2025-08-05 01:08:00 - sheets - INFO - Google Sheets client initialized successfully
+2025-08-05 01:08:00 - automation - INFO - Starting booking automation
+2025-08-05 01:08:00 - sheets - INFO - Retrieved 28 rows from Google Sheet
+2025-08-05 01:08:00 - automation - INFO - Initializing advanced HTTP booking client...
+2025-08-05 01:08:00 - automation - INFO - Starting to process 28 rows from Google Sheet
+2025-08-05 01:08:00 - automation - INFO - Row 2: Processing data: {'name': '', 'email': '', 'company': 'Divlyn Blue', 'status': 'pending'}
+2025-08-05 01:08:00 - automation - INFO - Created demo email for testing: demo@divlynblue.com
+2025-08-05 01:08:00 - automation - INFO - Row 2: Starting booking process for pending (demo@divlynblue.com)
+2025-08-05 01:08:00 - advanced_booking - INFO - Starting advanced booking for pending (demo@divlynblue.com)
+2025-08-05 01:08:00 - advanced_booking - INFO - Loading booking page...
+2025-08-05 01:08:01 - advanced_booking - INFO - Found calendar config: 7,
+2025-08-05 01:08:01 - advanced_booking - INFO - Successfully parsed booking page
+2025-08-05 01:08:01 - advanced_booking - INFO - Fetching available time slots...
+2025-08-05 01:08:01 - advanced_booking - INFO - Selected slot: {'id': 'slot_1', 'date': '2025-08-06', 'time': '09:00', 'datetime': '2025-08-06 09:00', 'available': True}
+2025-08-05 01:08:01 - advanced_booking - INFO - Submitting booking...
+2025-08-05 01:08:02 - advanced_booking - INFO - Submission to https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/api/booking: 404
+2025-08-05 01:08:02 - advanced_booking - INFO - Submission to https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/api/submit: 404
+2025-08-05 01:08:02 - advanced_booking - INFO - Submission to https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/submit: 404
+2025-08-05 01:08:03 - advanced_booking - INFO - Submission to https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/book: 404
+2025-08-05 01:08:04 - advanced_booking - INFO - Submission to https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/: 200
+2025-08-05 01:08:04 - advanced_booking - INFO - Booking submission appears successful
+2025-08-05 01:08:04 - advanced_booking - INFO - ✅ Successfully booked appointment for pending
+2025-08-05 01:08:04 - sheets - INFO - Updated cell (2, 4) with value: done
+2025-08-05 01:08:04 - automation - INFO - Row 2: Marked as done in Google Sheet
+2025-08-05 01:08:04 - automation - INFO - Row 2: ✅ BOOKING SUCCESSFUL for pending
+2025-08-05 01:08:04 - automation - INFO - Waiting 5 seconds before next booking...
+2025-08-05 01:08:09 - automation - INFO - Row 3: Processing data: {'name': '', 'email': '', 'company': 'Divlyn Green', 'status': 'pending'}
+2025-08-05 01:08:09 - automation - INFO - Created demo email for testing: demo@divlyngreen.com
+2025-08-05 01:08:09 - automation - INFO - Row 3: Starting booking process for pending (demo@divlyngreen.com)
+2025-08-05 01:08:09 - advanced_booking - INFO - Starting advanced booking for pending (demo@divlyngreen.com)
+2025-08-05 01:08:09 - advanced_booking - INFO - Loading booking page...
+2025-08-05 01:08:09 - advanced_booking - INFO - Found calendar config: 7,
+2025-08-05 01:08:09 - advanced_booking - INFO - Successfully parsed booking page
+2025-08-05 01:08:09 - advanced_booking - INFO - Fetching available time slots...
+2025-08-05 01:08:10 - advanced_booking - INFO - Selected slot: {'id': 'slot_1', 'date': '2025-08-06', 'time': '09:00', 'datetime': '2025-08-06 09:00', 'available': True}
+2025-08-05 01:08:10 - advanced_booking - INFO - Submitting booking...
+2025-08-05 01:08:10 - advanced_booking - INFO - Submission to https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/api/booking: 404
+2025-08-05 01:08:11 - advanced_booking - INFO - Submission to https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/api/submit: 404
+2025-08-05 01:08:11 - advanced_booking - INFO - Submission to https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/submit: 404
+2025-08-05 01:08:11 - advanced_booking - INFO - Submission to https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/book: 404
+2025-08-05 01:08:12 - advanced_booking - INFO - Submission to https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/: 200
+2025-08-05 01:08:12 - advanced_booking - INFO - Booking submission appears successful
+2025-08-05 01:08:12 - advanced_booking - INFO - ✅ Successfully booked appointment for pending
+2025-08-05 01:08:12 - sheets - INFO - Updated cell (3, 4) with value: done
+2025-08-05 01:08:12 - automation - INFO - Row 3: Marked as done in Google Sheet
+2025-08-05 01:08:12 - automation - INFO - Row 3: ✅ BOOKING SUCCESSFUL for pending
+2025-08-05 01:08:12 - automation - INFO - Waiting 5 seconds before next booking...
+2025-08-05 01:08:17 - automation - INFO - Row 4: Processing data: {'name': '', 'email': '', 'company': 'Divlyn Yellow', 'status': 'pending'}
+2025-08-05 01:08:17 - automation - INFO - Created demo email for testing: demo@divlynyellow.com
+2025-08-05 01:08:17 - automation - INFO - Row 4: Starting booking process for pending (demo@divlynyellow.com)
+2025-08-05 01:08:17 - advanced_booking - INFO - Starting advanced booking for pending (demo@divlynyellow.com)
+2025-08-05 01:08:17 - advanced_booking - INFO - Loading booking page...
+2025-08-05 01:08:18 - advanced_booking - INFO - Found calendar config: 7,
+2025-08-05 01:08:18 - advanced_booking - INFO - Successfully parsed booking page
+2025-08-05 01:08:18 - advanced_booking - INFO - Fetching available time slots...
+2025-08-05 01:08:19 - advanced_booking - INFO - Selected slot: {'id': 'slot_1', 'date': '2025-08-06', 'time': '09:00', 'datetime': '2025-08-06 09:00', 'available': True}
+2025-08-05 01:08:19 - advanced_booking - INFO - Submitting booking...
+2025-08-05 01:08:19 - advanced_booking - INFO - Submission to https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/api/booking: 404
+2025-08-05 01:08:19 - advanced_booking - INFO - Submission to https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/api/submit: 404
+2025-08-05 01:08:20 - advanced_booking - INFO - Submission to https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/submit: 404
+2025-08-05 01:08:20 - advanced_booking - INFO - Submission to https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/book: 404
+2025-08-05 01:08:21 - advanced_booking - INFO - Submission to https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/: 200
+2025-08-05 01:08:21 - advanced_booking - INFO - Booking submission appears successful
+2025-08-05 01:08:21 - advanced_booking - INFO - ✅ Successfully booked appointment for pending
+2025-08-05 01:08:21 - sheets - INFO - Updated cell (4, 4) with value: done
+2025-08-05 01:08:21 - automation - INFO - Row 4: Marked as done in Google Sheet
+2025-08-05 01:08:21 - automation - INFO - Row 4: ✅ BOOKING SUCCESSFUL for pending
+2025-08-05 01:08:21 - automation - INFO - Waiting 5 seconds before next booking...
+2025-08-05 01:08:26 - automation - INFO - Row 5: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:08:26 - automation - WARNING - Missing email address and company name
+2025-08-05 01:08:26 - automation - WARNING - Row 5: Invalid data - skipping
+2025-08-05 01:08:26 - automation - INFO - Row 6: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:08:26 - automation - WARNING - Missing email address and company name
+2025-08-05 01:08:26 - automation - WARNING - Row 6: Invalid data - skipping
+2025-08-05 01:08:26 - automation - INFO - Row 7: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:08:26 - automation - WARNING - Missing email address and company name
+2025-08-05 01:08:26 - automation - WARNING - Row 7: Invalid data - skipping
+2025-08-05 01:08:26 - automation - INFO - Row 8: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:08:26 - automation - WARNING - Missing email address and company name
+2025-08-05 01:08:26 - automation - WARNING - Row 8: Invalid data - skipping
+2025-08-05 01:08:26 - automation - INFO - Row 9: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:08:26 - automation - WARNING - Missing email address and company name
+2025-08-05 01:08:26 - automation - WARNING - Row 9: Invalid data - skipping
+2025-08-05 01:08:26 - automation - INFO - Row 10: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:08:26 - automation - WARNING - Missing email address and company name
+2025-08-05 01:08:26 - automation - WARNING - Row 10: Invalid data - skipping
+2025-08-05 01:08:26 - automation - INFO - Row 11: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:08:26 - automation - WARNING - Missing email address and company name
+2025-08-05 01:08:26 - automation - WARNING - Row 11: Invalid data - skipping
+2025-08-05 01:08:26 - automation - INFO - Row 12: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:08:26 - automation - WARNING - Missing email address and company name
+2025-08-05 01:08:26 - automation - WARNING - Row 12: Invalid data - skipping
+2025-08-05 01:08:26 - automation - INFO - Row 13: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:08:26 - automation - WARNING - Missing email address and company name
+2025-08-05 01:08:26 - automation - WARNING - Row 13: Invalid data - skipping
+2025-08-05 01:08:26 - automation - INFO - Row 14: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:08:26 - automation - WARNING - Missing email address and company name
+2025-08-05 01:08:26 - automation - WARNING - Row 14: Invalid data - skipping
+2025-08-05 01:08:26 - automation - INFO - Row 15: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:08:26 - automation - WARNING - Missing email address and company name
+2025-08-05 01:08:26 - automation - WARNING - Row 15: Invalid data - skipping
+2025-08-05 01:08:26 - automation - INFO - Row 16: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:08:26 - automation - WARNING - Missing email address and company name
+2025-08-05 01:08:26 - automation - WARNING - Row 16: Invalid data - skipping
+2025-08-05 01:08:26 - automation - INFO - Row 17: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:08:26 - automation - WARNING - Missing email address and company name
+2025-08-05 01:08:26 - automation - WARNING - Row 17: Invalid data - skipping
+2025-08-05 01:08:26 - automation - INFO - Row 18: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:08:26 - automation - WARNING - Missing email address and company name
+2025-08-05 01:08:26 - automation - WARNING - Row 18: Invalid data - skipping
+2025-08-05 01:08:26 - automation - INFO - Row 19: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:08:26 - automation - WARNING - Missing email address and company name
+2025-08-05 01:08:26 - automation - WARNING - Row 19: Invalid data - skipping
+2025-08-05 01:08:26 - automation - INFO - Row 20: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:08:26 - automation - WARNING - Missing email address and company name
+2025-08-05 01:08:26 - automation - WARNING - Row 20: Invalid data - skipping
+2025-08-05 01:08:26 - automation - INFO - Row 21: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:08:26 - automation - WARNING - Missing email address and company name
+2025-08-05 01:08:26 - automation - WARNING - Row 21: Invalid data - skipping
+2025-08-05 01:08:26 - automation - INFO - Row 22: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:08:26 - automation - WARNING - Missing email address and company name
+2025-08-05 01:08:26 - automation - WARNING - Row 22: Invalid data - skipping
+2025-08-05 01:08:26 - automation - INFO - Row 23: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:08:26 - automation - WARNING - Missing email address and company name
+2025-08-05 01:08:26 - automation - WARNING - Row 23: Invalid data - skipping
+2025-08-05 01:08:26 - automation - INFO - Row 24: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:08:26 - automation - WARNING - Missing email address and company name
+2025-08-05 01:08:26 - automation - WARNING - Row 24: Invalid data - skipping
+2025-08-05 01:08:26 - automation - INFO - Row 25: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:08:26 - automation - WARNING - Missing email address and company name
+2025-08-05 01:08:26 - automation - WARNING - Row 25: Invalid data - skipping
+2025-08-05 01:08:26 - automation - INFO - Row 26: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:08:26 - automation - WARNING - Missing email address and company name
+2025-08-05 01:08:26 - automation - WARNING - Row 26: Invalid data - skipping
+2025-08-05 01:08:26 - automation - INFO - Row 27: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:08:26 - automation - WARNING - Missing email address and company name
+2025-08-05 01:08:26 - automation - WARNING - Row 27: Invalid data - skipping
+2025-08-05 01:08:26 - automation - INFO - Row 28: Processing data: {'name': '', 'email': 'ambersellsthesierras@gmail.com', 'company': 'Amber Sells the Sierras', 'status': 'done - advanced booking successful'}
+2025-08-05 01:08:26 - automation - INFO - Row 28: Starting booking process for done - advanced booking successful (ambersellsthesierras@gmail.com)
+2025-08-05 01:08:26 - advanced_booking - INFO - Starting advanced booking for done - advanced booking successful (ambersellsthesierras@gmail.com)
+2025-08-05 01:08:26 - advanced_booking - INFO - Loading booking page...
+2025-08-05 01:08:26 - advanced_booking - INFO - Found calendar config: 7,
+2025-08-05 01:08:26 - advanced_booking - INFO - Successfully parsed booking page
+2025-08-05 01:08:26 - advanced_booking - INFO - Fetching available time slots...
+2025-08-05 01:08:27 - advanced_booking - INFO - Selected slot: {'id': 'slot_1', 'date': '2025-08-06', 'time': '09:00', 'datetime': '2025-08-06 09:00', 'available': True}
+2025-08-05 01:08:27 - advanced_booking - INFO - Submitting booking...
+2025-08-05 01:08:27 - advanced_booking - INFO - Submission to https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/api/booking: 404
+2025-08-05 01:08:28 - advanced_booking - INFO - Submission to https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/api/submit: 404
+2025-08-05 01:08:28 - advanced_booking - INFO - Submission to https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/submit: 404
+2025-08-05 01:08:28 - advanced_booking - INFO - Submission to https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/book: 404
+2025-08-05 01:08:29 - advanced_booking - INFO - Submission to https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/: 200
+2025-08-05 01:08:29 - advanced_booking - INFO - Booking submission appears successful
+2025-08-05 01:08:29 - advanced_booking - INFO - ✅ Successfully booked appointment for done - advanced booking successful
+2025-08-05 01:08:29 - sheets - INFO - Updated cell (28, 4) with value: done
+2025-08-05 01:08:29 - automation - INFO - Row 28: Marked as done in Google Sheet
+2025-08-05 01:08:29 - automation - INFO - Row 28: ✅ BOOKING SUCCESSFUL for done - advanced booking successful
+2025-08-05 01:08:29 - automation - INFO - Waiting 5 seconds before next booking...
+2025-08-05 01:08:34 - automation - INFO - Row 29: Processing data: {'name': '', 'email': 'ambersellsthesierras@gmail.com', 'company': '', 'status': 'done'}
+2025-08-05 01:08:34 - automation - INFO - Row 29: Skipping - already marked as done
+2025-08-05 01:08:34 - automation - INFO - 🏁 AUTOMATION COMPLETED: 4 successful bookings, 23 errors
+2025-08-05 01:08:34 - automation - INFO - Automation cleanup completed
+2025-08-05 01:08:34 - flask - INFO - Automation completed successfully
+2025-08-05 01:08:39 - sheets - INFO - Opened worksheet: appointments
+2025-08-05 01:08:39 - sheets - INFO - Google Sheets client initialized successfully
+2025-08-05 01:08:39 - sheets - INFO - Retrieved 28 rows from Google Sheet
+2025-08-05 01:10:07 - flask - INFO - Starting Flask application
+2025-08-05 01:10:09 - flask - INFO - Starting Flask application
+2025-08-05 01:10:14 - sheets - INFO - Opened worksheet: appointments
+2025-08-05 01:10:14 - sheets - INFO - Google Sheets client initialized successfully
+2025-08-05 01:10:14 - sheets - INFO - Updated cell (28, 4) with value: 
+2025-08-05 01:10:18 - form_automation - INFO - Starting real form automation for Amber Johnson (ambersellsthesierras@gmail.com)
+2025-08-05 01:10:18 - form_automation - INFO - Loading booking page to extract real form...
+2025-08-05 01:10:18 - form_automation - WARNING - No forms found on page, looking for embedded JavaScript form handlers...
+2025-08-05 01:10:18 - form_automation - INFO - Extracting JavaScript form handler...
+2025-08-05 01:10:18 - form_automation - INFO - Found JS form action: https://apisystem.tech
+2025-08-05 01:10:18 - form_automation - INFO - Preparing real form submission...
+2025-08-05 01:10:18 - form_automation - INFO - Form data prepared: ['name', 'email', 'company', 'phone', 'message', 'service', 'duration', 'timezone', 'booking_type']
+2025-08-05 01:10:18 - form_automation - INFO - Trying form submission to: https://apisystem.tech
+2025-08-05 01:10:18 - form_automation - INFO - Form submission response: 404
+2025-08-05 01:10:18 - form_automation - INFO - Trying form submission to: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/submit
+2025-08-05 01:10:19 - form_automation - INFO - Form submission response: 404
+2025-08-05 01:10:19 - form_automation - INFO - Trying form submission to: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/book
+2025-08-05 01:10:19 - form_automation - INFO - Form submission response: 404
+2025-08-05 01:10:19 - form_automation - INFO - Trying form submission to: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/appointment
+2025-08-05 01:10:19 - form_automation - INFO - Form submission response: 404
+2025-08-05 01:10:20 - form_automation - INFO - Trying form submission to: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m
+2025-08-05 01:10:20 - form_automation - INFO - Form submission response: 200
+2025-08-05 01:10:21 - form_automation - INFO - Trying direct API submission...
+2025-08-05 01:10:21 - form_automation - ERROR - ❌ Real form submission failed for Amber Johnson
+2025-08-05 01:13:14 - flask - INFO - Starting Flask application
+2025-08-05 01:13:16 - flask - INFO - Starting Flask application
+2025-08-05 01:13:18 - flask - INFO - Starting Flask application
+2025-08-05 01:13:19 - flask - INFO - Starting Flask application
+2025-08-05 01:13:33 - flask - INFO - Starting Flask application
+2025-08-05 01:13:36 - flask - INFO - Starting Flask application
+2025-08-05 01:13:43 - flask - INFO - Starting Flask application
+2025-08-05 01:14:14 - flask - INFO - Starting Flask application
+2025-08-05 01:14:25 - flask - INFO - Starting Flask application
+2025-08-05 01:16:35 - flask - INFO - Starting Flask application
+2025-08-05 01:16:35 - flask - INFO - Starting Flask application
+2025-08-05 01:21:14 - flask - INFO - Starting Flask application
+2025-08-05 01:21:41 - flask - INFO - Starting Flask application
+2025-08-05 01:21:59 - sheets - ERROR - Error opening worksheet: Google Sheet URL not provided
+2025-08-05 01:21:59 - sheets - ERROR - Error initializing Google Sheets client: Google Sheet URL not provided
+2025-08-05 01:27:14 - flask - INFO - Updated Google Sheet URL to: https://docs.google.com/spreadsheets/d/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI/edit?usp=sharing
+2025-08-05 01:27:19 - flask - INFO - Starting automation with Google Sheet URL: https://docs.google.com/spreadsheets/d/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI/edit?usp=sharing
+2025-08-05 01:27:20 - sheets - INFO - Opened worksheet: appointments
+2025-08-05 01:27:20 - sheets - INFO - Google Sheets client initialized successfully
+2025-08-05 01:27:20 - automation - INFO - Starting booking automation
+2025-08-05 01:27:20 - sheets - INFO - Retrieved 28 rows from Google Sheet
+2025-08-05 01:27:20 - automation - INFO - Initializing real form automation client...
+2025-08-05 01:27:20 - automation - INFO - Starting to process 28 rows from Google Sheet
+2025-08-05 01:27:20 - automation - INFO - Row 2: Processing data: {'name': '', 'email': '', 'company': 'Divlyn Blue', 'status': 'pending'}
+2025-08-05 01:27:20 - automation - INFO - Created demo email for testing: demo@divlynblue.com
+2025-08-05 01:27:20 - automation - INFO - Row 2: Starting booking process for pending (demo@divlynblue.com)
+2025-08-05 01:27:20 - form_automation - INFO - Starting real form automation for pending (demo@divlynblue.com)
+2025-08-05 01:27:20 - form_automation - INFO - Loading booking page to extract real form...
+2025-08-05 01:27:21 - form_automation - WARNING - No forms found on page, looking for embedded JavaScript form handlers...
+2025-08-05 01:27:21 - form_automation - INFO - Extracting JavaScript form handler...
+2025-08-05 01:27:21 - form_automation - INFO - Found JS form action: https://apisystem.tech
+2025-08-05 01:27:21 - form_automation - INFO - Preparing real form submission...
+2025-08-05 01:27:21 - form_automation - INFO - Form data prepared: ['name', 'email', 'company', 'phone', 'message', 'service', 'duration', 'timezone', 'booking_type']
+2025-08-05 01:27:21 - form_automation - INFO - Trying form submission to: https://apisystem.tech
+2025-08-05 01:27:21 - form_automation - INFO - Form submission response: 404
+2025-08-05 01:27:21 - form_automation - INFO - Trying form submission to: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/submit
+2025-08-05 01:27:21 - form_automation - INFO - Form submission response: 404
+2025-08-05 01:27:21 - form_automation - INFO - Trying form submission to: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/book
+2025-08-05 01:27:21 - form_automation - INFO - Form submission response: 404
+2025-08-05 01:27:21 - form_automation - INFO - Trying form submission to: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/appointment
+2025-08-05 01:27:22 - form_automation - INFO - Form submission response: 404
+2025-08-05 01:27:22 - form_automation - INFO - Trying form submission to: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m
+2025-08-05 01:27:23 - form_automation - INFO - Form submission response: 200
+2025-08-05 01:27:23 - form_automation - INFO - Trying direct API submission...
+2025-08-05 01:27:24 - form_automation - ERROR - ❌ Real form submission failed for pending
+2025-08-05 01:27:24 - email_notifications - WARNING - Email not configured, skipping failure notification
+2025-08-05 01:27:24 - automation - INFO - Failure notification sent for pending
+2025-08-05 01:27:24 - automation - ERROR - Row 2: ❌ BOOKING FAILED for pending
+2025-08-05 01:27:24 - automation - INFO - Waiting 5 seconds before next booking...
+2025-08-05 01:27:29 - automation - INFO - Row 3: Processing data: {'name': '', 'email': '', 'company': 'Divlyn Green', 'status': 'pending'}
+2025-08-05 01:27:29 - automation - INFO - Created demo email for testing: demo@divlyngreen.com
+2025-08-05 01:27:29 - automation - INFO - Row 3: Starting booking process for pending (demo@divlyngreen.com)
+2025-08-05 01:27:29 - form_automation - INFO - Starting real form automation for pending (demo@divlyngreen.com)
+2025-08-05 01:27:29 - form_automation - INFO - Loading booking page to extract real form...
+2025-08-05 01:27:29 - form_automation - WARNING - No forms found on page, looking for embedded JavaScript form handlers...
+2025-08-05 01:27:29 - form_automation - INFO - Extracting JavaScript form handler...
+2025-08-05 01:27:29 - form_automation - INFO - Found JS form action: https://apisystem.tech
+2025-08-05 01:27:29 - form_automation - INFO - Preparing real form submission...
+2025-08-05 01:27:29 - form_automation - INFO - Form data prepared: ['name', 'email', 'company', 'phone', 'message', 'service', 'duration', 'timezone', 'booking_type']
+2025-08-05 01:27:29 - form_automation - INFO - Trying form submission to: https://apisystem.tech
+2025-08-05 01:27:29 - form_automation - INFO - Form submission response: 404
+2025-08-05 01:27:29 - form_automation - INFO - Trying form submission to: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/submit
+2025-08-05 01:27:29 - form_automation - INFO - Form submission response: 404
+2025-08-05 01:27:30 - form_automation - INFO - Trying form submission to: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/book
+2025-08-05 01:27:30 - form_automation - INFO - Form submission response: 404
+2025-08-05 01:27:30 - form_automation - INFO - Trying form submission to: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/appointment
+2025-08-05 01:27:30 - form_automation - INFO - Form submission response: 404
+2025-08-05 01:27:30 - form_automation - INFO - Trying form submission to: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m
+2025-08-05 01:27:31 - form_automation - INFO - Form submission response: 200
+2025-08-05 01:27:31 - form_automation - INFO - Trying direct API submission...
+2025-08-05 01:27:32 - form_automation - ERROR - ❌ Real form submission failed for pending
+2025-08-05 01:27:32 - email_notifications - WARNING - Email not configured, skipping failure notification
+2025-08-05 01:27:32 - automation - INFO - Failure notification sent for pending
+2025-08-05 01:27:32 - automation - ERROR - Row 3: ❌ BOOKING FAILED for pending
+2025-08-05 01:27:32 - automation - INFO - Waiting 5 seconds before next booking...
+2025-08-05 01:27:37 - automation - INFO - Row 4: Processing data: {'name': '', 'email': '', 'company': 'Divlyn Yellow', 'status': 'pending'}
+2025-08-05 01:27:37 - automation - INFO - Created demo email for testing: demo@divlynyellow.com
+2025-08-05 01:27:37 - automation - INFO - Row 4: Starting booking process for pending (demo@divlynyellow.com)
+2025-08-05 01:27:37 - form_automation - INFO - Starting real form automation for pending (demo@divlynyellow.com)
+2025-08-05 01:27:37 - form_automation - INFO - Loading booking page to extract real form...
+2025-08-05 01:27:37 - form_automation - WARNING - No forms found on page, looking for embedded JavaScript form handlers...
+2025-08-05 01:27:37 - form_automation - INFO - Extracting JavaScript form handler...
+2025-08-05 01:27:37 - form_automation - INFO - Found JS form action: https://apisystem.tech
+2025-08-05 01:27:37 - form_automation - INFO - Preparing real form submission...
+2025-08-05 01:27:37 - form_automation - INFO - Form data prepared: ['name', 'email', 'company', 'phone', 'message', 'service', 'duration', 'timezone', 'booking_type']
+2025-08-05 01:27:37 - form_automation - INFO - Trying form submission to: https://apisystem.tech
+2025-08-05 01:27:37 - form_automation - INFO - Form submission response: 404
+2025-08-05 01:27:38 - form_automation - INFO - Trying form submission to: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/submit
+2025-08-05 01:27:38 - form_automation - INFO - Form submission response: 404
+2025-08-05 01:27:38 - form_automation - INFO - Trying form submission to: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/book
+2025-08-05 01:27:38 - form_automation - INFO - Form submission response: 404
+2025-08-05 01:27:38 - form_automation - INFO - Trying form submission to: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/appointment
+2025-08-05 01:27:38 - form_automation - INFO - Form submission response: 404
+2025-08-05 01:27:38 - form_automation - INFO - Trying form submission to: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m
+2025-08-05 01:27:39 - form_automation - INFO - Form submission response: 200
+2025-08-05 01:27:39 - form_automation - INFO - Trying direct API submission...
+2025-08-05 01:27:40 - form_automation - ERROR - ❌ Real form submission failed for pending
+2025-08-05 01:27:40 - email_notifications - WARNING - Email not configured, skipping failure notification
+2025-08-05 01:27:40 - automation - INFO - Failure notification sent for pending
+2025-08-05 01:27:40 - automation - ERROR - Row 4: ❌ BOOKING FAILED for pending
+2025-08-05 01:27:40 - automation - INFO - Waiting 5 seconds before next booking...
+2025-08-05 01:27:45 - automation - INFO - Row 5: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:27:45 - automation - WARNING - Missing email address and company name
+2025-08-05 01:27:45 - automation - WARNING - Row 5: Invalid data - skipping
+2025-08-05 01:27:45 - automation - INFO - Row 6: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:27:45 - automation - WARNING - Missing email address and company name
+2025-08-05 01:27:45 - automation - WARNING - Row 6: Invalid data - skipping
+2025-08-05 01:27:45 - automation - INFO - Row 7: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:27:45 - automation - WARNING - Missing email address and company name
+2025-08-05 01:27:45 - automation - WARNING - Row 7: Invalid data - skipping
+2025-08-05 01:27:45 - automation - INFO - Row 8: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:27:45 - automation - WARNING - Missing email address and company name
+2025-08-05 01:27:45 - automation - WARNING - Row 8: Invalid data - skipping
+2025-08-05 01:27:45 - automation - INFO - Row 9: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:27:45 - automation - WARNING - Missing email address and company name
+2025-08-05 01:27:45 - automation - WARNING - Row 9: Invalid data - skipping
+2025-08-05 01:27:45 - automation - INFO - Row 10: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:27:45 - automation - WARNING - Missing email address and company name
+2025-08-05 01:27:45 - automation - WARNING - Row 10: Invalid data - skipping
+2025-08-05 01:27:45 - automation - INFO - Row 11: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:27:45 - automation - WARNING - Missing email address and company name
+2025-08-05 01:27:45 - automation - WARNING - Row 11: Invalid data - skipping
+2025-08-05 01:27:45 - automation - INFO - Row 12: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:27:45 - automation - WARNING - Missing email address and company name
+2025-08-05 01:27:45 - automation - WARNING - Row 12: Invalid data - skipping
+2025-08-05 01:27:45 - automation - INFO - Row 13: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:27:45 - automation - WARNING - Missing email address and company name
+2025-08-05 01:27:45 - automation - WARNING - Row 13: Invalid data - skipping
+2025-08-05 01:27:45 - automation - INFO - Row 14: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:27:45 - automation - WARNING - Missing email address and company name
+2025-08-05 01:27:45 - automation - WARNING - Row 14: Invalid data - skipping
+2025-08-05 01:27:45 - automation - INFO - Row 15: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:27:45 - automation - WARNING - Missing email address and company name
+2025-08-05 01:27:45 - automation - WARNING - Row 15: Invalid data - skipping
+2025-08-05 01:27:45 - automation - INFO - Row 16: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:27:45 - automation - WARNING - Missing email address and company name
+2025-08-05 01:27:45 - automation - WARNING - Row 16: Invalid data - skipping
+2025-08-05 01:27:45 - automation - INFO - Row 17: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:27:45 - automation - WARNING - Missing email address and company name
+2025-08-05 01:27:45 - automation - WARNING - Row 17: Invalid data - skipping
+2025-08-05 01:27:45 - automation - INFO - Row 18: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:27:45 - automation - WARNING - Missing email address and company name
+2025-08-05 01:27:45 - automation - WARNING - Row 18: Invalid data - skipping
+2025-08-05 01:27:45 - automation - INFO - Row 19: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:27:45 - automation - WARNING - Missing email address and company name
+2025-08-05 01:27:45 - automation - WARNING - Row 19: Invalid data - skipping
+2025-08-05 01:27:45 - automation - INFO - Row 20: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:27:45 - automation - WARNING - Missing email address and company name
+2025-08-05 01:27:45 - automation - WARNING - Row 20: Invalid data - skipping
+2025-08-05 01:27:45 - automation - INFO - Row 21: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:27:45 - automation - WARNING - Missing email address and company name
+2025-08-05 01:27:45 - automation - WARNING - Row 21: Invalid data - skipping
+2025-08-05 01:27:45 - automation - INFO - Row 22: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:27:45 - automation - WARNING - Missing email address and company name
+2025-08-05 01:27:45 - automation - WARNING - Row 22: Invalid data - skipping
+2025-08-05 01:27:45 - automation - INFO - Row 23: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:27:45 - automation - WARNING - Missing email address and company name
+2025-08-05 01:27:45 - automation - WARNING - Row 23: Invalid data - skipping
+2025-08-05 01:27:45 - automation - INFO - Row 24: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:27:45 - automation - WARNING - Missing email address and company name
+2025-08-05 01:27:45 - automation - WARNING - Row 24: Invalid data - skipping
+2025-08-05 01:27:45 - automation - INFO - Row 25: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:27:45 - automation - WARNING - Missing email address and company name
+2025-08-05 01:27:45 - automation - WARNING - Row 25: Invalid data - skipping
+2025-08-05 01:27:45 - automation - INFO - Row 26: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:27:45 - automation - WARNING - Missing email address and company name
+2025-08-05 01:27:45 - automation - WARNING - Row 26: Invalid data - skipping
+2025-08-05 01:27:45 - automation - INFO - Row 27: Processing data: {'name': '', 'email': '', 'company': '', 'status': ''}
+2025-08-05 01:27:45 - automation - WARNING - Missing email address and company name
+2025-08-05 01:27:45 - automation - WARNING - Row 27: Invalid data - skipping
+2025-08-05 01:27:45 - automation - INFO - Row 28: Processing data: {'name': '', 'email': 'ambersellsthesierras@gmail.com', 'company': 'Amber Sells the Sierras', 'status': ''}
+2025-08-05 01:27:45 - automation - INFO - Row 28: Starting booking process for Amber Sells the Sierras (ambersellsthesierras@gmail.com)
+2025-08-05 01:27:45 - form_automation - INFO - Starting real form automation for Amber Sells the Sierras (ambersellsthesierras@gmail.com)
+2025-08-05 01:27:45 - form_automation - INFO - Loading booking page to extract real form...
+2025-08-05 01:27:47 - form_automation - WARNING - No forms found on page, looking for embedded JavaScript form handlers...
+2025-08-05 01:27:47 - form_automation - INFO - Extracting JavaScript form handler...
+2025-08-05 01:27:47 - form_automation - INFO - Found JS form action: https://apisystem.tech
+2025-08-05 01:27:47 - form_automation - INFO - Preparing real form submission...
+2025-08-05 01:27:47 - form_automation - INFO - Form data prepared: ['name', 'email', 'company', 'phone', 'message', 'service', 'duration', 'timezone', 'booking_type']
+2025-08-05 01:27:47 - form_automation - INFO - Trying form submission to: https://apisystem.tech
+2025-08-05 01:27:47 - form_automation - INFO - Form submission response: 404
+2025-08-05 01:27:47 - form_automation - INFO - Trying form submission to: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/submit
+2025-08-05 01:27:47 - form_automation - INFO - Form submission response: 404
+2025-08-05 01:27:47 - form_automation - INFO - Trying form submission to: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/book
+2025-08-05 01:27:47 - form_automation - INFO - Form submission response: 404
+2025-08-05 01:27:47 - form_automation - INFO - Trying form submission to: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m/appointment
+2025-08-05 01:27:48 - form_automation - INFO - Form submission response: 404
+2025-08-05 01:27:48 - form_automation - INFO - Trying form submission to: https://api.leadconnectorhq.com/widget/booking/vggoBfO4Zr1RTp4M4h8m
+2025-08-05 01:27:48 - form_automation - INFO - Form submission response: 200
+2025-08-05 01:27:49 - form_automation - INFO - Trying direct API submission...
+2025-08-05 01:27:50 - form_automation - ERROR - ❌ Real form submission failed for Amber Sells the Sierras
+2025-08-05 01:27:50 - email_notifications - WARNING - Email not configured, skipping failure notification
+2025-08-05 01:27:50 - automation - INFO - Failure notification sent for Amber Sells the Sierras
+2025-08-05 01:27:50 - automation - ERROR - Row 28: ❌ BOOKING FAILED for Amber Sells the Sierras
+2025-08-05 01:27:50 - automation - INFO - Waiting 5 seconds before next booking...
+2025-08-05 01:27:55 - automation - INFO - Row 29: Processing data: {'name': '', 'email': 'ambersellsthesierras@gmail.com', 'company': '', 'status': 'done'}
+2025-08-05 01:27:55 - automation - INFO - Row 29: Skipping - already marked as done
+2025-08-05 01:27:55 - automation - INFO - 🏁 AUTOMATION COMPLETED: 0 successful bookings, 27 errors
+2025-08-05 01:27:55 - automation - INFO - Automation cleanup completed
+2025-08-05 01:27:55 - flask - INFO - Automation completed successfully
+2025-08-05 01:28:39 - flask - INFO - Starting Flask application
+2025-08-05 01:28:54 - flask - INFO - Starting Flask application
+2025-08-05 01:29:04 - flask - INFO - Starting Flask application
+2025-08-05 01:29:08 - flask - INFO - Starting Flask application
+2025-08-05 01:29:14 - flask - INFO - Starting Flask application
+2025-08-05 01:29:16 - flask - INFO - Starting Flask application
+2025-08-05 01:29:17 - flask - INFO - Starting Flask application
+2025-08-05 01:30:13 - flask - INFO - Starting Flask application
+2025-08-05 01:32:28 - flask - INFO - Starting Flask application
+2025-08-05 01:32:28 - flask - INFO - Starting Flask application
+2025-08-05 01:37:09 - sheets - ERROR - Error opening worksheet: Google Sheet URL not provided
+2025-08-05 01:37:09 - sheets - ERROR - Error initializing Google Sheets client: Google Sheet URL not provided
+2025-08-05 01:45:44 - flask - INFO - Starting Flask application
+2025-08-05 01:45:51 - flask - INFO - Starting Flask application
+2025-08-05 01:45:51 - flask - INFO - Flask configuration - Host: 0.0.0.0, Port: 5000, Debug: True
+2025-08-05 01:46:48 - flask - INFO - Starting Flask application
+2025-08-05 01:46:48 - flask - INFO - Flask configuration - Host: 0.0.0.0, Port: 5000, Debug: True
+2025-08-05 01:46:49 - flask - INFO - Starting Flask application
+2025-08-05 01:46:49 - flask - INFO - Flask configuration - Host: 0.0.0.0, Port: 5000, Debug: True
+2025-08-05 01:48:44 - flask - INFO - Starting Flask application
+2025-08-05 01:48:44 - flask - INFO - Flask configuration - Host: 0.0.0.0, Port: 5000, Debug: True
+2025-08-05 01:50:44 - flask - INFO - Starting Flask application
+2025-08-05 01:50:44 - flask - INFO - Flask configuration - Host: 0.0.0.0, Port: 5000, Debug: True
+2025-08-05 01:50:45 - flask - INFO - Starting Flask application
+2025-08-05 01:50:45 - flask - INFO - Flask configuration - Host: 0.0.0.0, Port: 5000, Debug: True
+2025-08-05 01:52:03 - flask - INFO - Starting production server on 0.0.0.0:5000
+2025-08-05 01:52:03 - flask - INFO - Application is ready for deployment
+2025-08-05 01:56:25 - flask - INFO - Starting Flask application
+2025-08-05 01:56:25 - flask - INFO - Flask configuration - Host: 0.0.0.0, Port: 5000, Debug: True
+2025-08-05 01:56:26 - flask - INFO - Starting Flask application
+2025-08-05 01:56:26 - flask - INFO - Flask configuration - Host: 0.0.0.0, Port: 5000, Debug: True
+2025-08-05 01:56:33 - flask - INFO - Starting Flask application
+2025-08-05 01:56:33 - flask - INFO - Flask configuration - Host: 0.0.0.0, Port: 5000, Debug: True
+2025-08-05 01:58:27 - flask - INFO - Starting Flask application
+2025-08-05 01:58:27 - flask - INFO - Flask configuration - Host: 0.0.0.0, Port: 5000, Debug: True
+2025-08-05 01:59:34 - flask - INFO - Starting Flask application
+2025-08-05 01:59:34 - flask - INFO - Flask configuration - Host: 0.0.0.0, Port: 5000, Debug: True
+2025-08-05 01:59:34 - flask - INFO - Starting Flask application
+2025-08-05 01:59:34 - flask - INFO - Flask configuration - Host: 0.0.0.0, Port: 5000, Debug: True
+2025-08-05 02:00:46 - flask - INFO - Starting Flask application
+2025-08-05 02:00:46 - flask - INFO - Flask configuration - Host: 0.0.0.0, Port: 5000, Debug: True
+2025-08-05 02:00:46 - flask - INFO - Starting Flask application
+2025-08-05 02:00:46 - flask - INFO - Flask configuration - Host: 0.0.0.0, Port: 5000, Debug: True
+2025-08-05 02:02:42 - flask - INFO - Starting Flask application
+2025-08-05 02:02:42 - flask - INFO - Flask configuration - Host: 0.0.0.0, Port: 5000, Debug: True
+2025-08-05 02:04:55 - flask - INFO - Starting Flask application
+2025-08-05 02:04:55 - flask - INFO - Flask configuration - Host: 0.0.0.0, Port: 5000, Debug: True
+2025-08-05 02:04:56 - flask - INFO - Starting Flask application
+2025-08-05 02:04:56 - flask - INFO - Flask configuration - Host: 0.0.0.0, Port: 5000, Debug: True
+2025-08-05 02:27:57 - flask - INFO - Starting Flask application
+2025-08-05 02:27:57 - flask - INFO - Flask configuration - Host: 0.0.0.0, Port: 5000, Debug: True
+2025-08-05 02:27:57 - flask - INFO - Starting Flask application
+2025-08-05 02:27:57 - flask - INFO - Flask configuration - Host: 0.0.0.0, Port: 5000, Debug: True
+2025-08-05 03:25:41 - flask - INFO - Starting Flask application
+2025-08-05 03:25:41 - flask - INFO - Flask configuration - Host: 0.0.0.0, Port: 5000, Debug: True
+2025-08-05 03:25:42 - flask - INFO - Starting Flask application
+2025-08-05 03:25:42 - flask - INFO - Flask configuration - Host: 0.0.0.0, Port: 5000, Debug: True
+2025-08-05 05:12:16 - flask - INFO - Starting Flask application
+2025-08-05 05:12:16 - flask - INFO - Flask configuration - Host: 0.0.0.0, Port: 5000, Debug: True
+2025-08-05 05:12:17 - flask - INFO - Starting Flask application
+2025-08-05 05:12:17 - flask - INFO - Flask configuration - Host: 0.0.0.0, Port: 5000, Debug: True
+2025-08-05 12:40:35 - flask - INFO - Starting Flask application
+2025-08-05 12:40:35 - flask - INFO - Flask configuration - Host: 0.0.0.0, Port: 5000, Debug: True
+2025-08-05 12:40:36 - flask - INFO - Starting Flask application
+2025-08-05 12:40:36 - flask - INFO - Flask configuration - Host: 0.0.0.0, Port: 5000, Debug: True
+2025-08-05 12:43:16 - flask - INFO - Starting Flask application
+2025-08-05 12:43:16 - flask - INFO - Flask configuration - Host: 0.0.0.0, Port: 5000, Debug: True
+2025-08-05 12:51:03 - flask - INFO - Starting Flask application
+2025-08-05 12:51:03 - flask - INFO - Flask configuration - Host: 0.0.0.0, Port: 5000, Debug: True
+2025-08-05 12:51:04 - flask - INFO - Starting Flask application
+2025-08-05 12:51:04 - flask - INFO - Flask configuration - Host: 0.0.0.0, Port: 5000, Debug: True
+2025-08-05 22:17:39 - flask - INFO - Starting Flask application
+2025-08-05 22:17:39 - flask - INFO - Flask configuration - Host: 0.0.0.0, Port: 5000, Debug: True
+2025-08-05 22:17:40 - flask - INFO - Starting Flask application
+2025-08-05 22:17:40 - flask - INFO - Flask configuration - Host: 0.0.0.0, Port: 5000, Debug: True
+2025-08-05 22:24:06 - flask - INFO - Starting Flask application
+2025-08-05 22:24:06 - flask - INFO - Flask configuration - Host: 0.0.0.0, Port: 5000, Debug: True
+2025-08-05 22:24:07 - flask - INFO - Starting Flask application
+2025-08-05 22:24:07 - flask - INFO - Flask configuration - Host: 0.0.0.0, Port: 5000, Debug: True

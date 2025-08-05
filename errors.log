@@ -1,0 +1,317 @@
+2025-08-05 00:12:56 - sheets - ERROR - Error initializing Google Sheets client: [Errno 2] No such file or directory: '/home/runner/.config/gspread/service_account.json'
+2025-08-05 00:12:56 - flask - ERROR - Error previewing data: [Errno 2] No such file or directory: '/home/runner/.config/gspread/service_account.json'
+2025-08-05 00:16:36 - sheets - ERROR - Error initializing Google Sheets client: [Errno 2] No such file or directory: '/home/runner/.config/gspread/service_account.json'
+2025-08-05 00:16:36 - flask - ERROR - Error previewing data: [Errno 2] No such file or directory: '/home/runner/.config/gspread/service_account.json'
+2025-08-05 00:16:39 - sheets - ERROR - Error initializing Google Sheets client: [Errno 2] No such file or directory: '/home/runner/.config/gspread/service_account.json'
+2025-08-05 00:16:39 - flask - ERROR - Error previewing data: [Errno 2] No such file or directory: '/home/runner/.config/gspread/service_account.json'
+2025-08-05 00:16:40 - sheets - ERROR - Error initializing Google Sheets client: [Errno 2] No such file or directory: '/home/runner/.config/gspread/service_account.json'
+2025-08-05 00:16:40 - flask - ERROR - Error previewing data: [Errno 2] No such file or directory: '/home/runner/.config/gspread/service_account.json'
+2025-08-05 00:16:43 - sheets - ERROR - Error initializing Google Sheets client: [Errno 2] No such file or directory: '/home/runner/.config/gspread/service_account.json'
+2025-08-05 00:16:43 - flask - ERROR - Error previewing data: [Errno 2] No such file or directory: '/home/runner/.config/gspread/service_account.json'
+2025-08-05 00:16:46 - sheets - ERROR - Error initializing Google Sheets client: [Errno 2] No such file or directory: '/home/runner/.config/gspread/service_account.json'
+2025-08-05 00:16:46 - flask - ERROR - Automation failed: [Errno 2] No such file or directory: '/home/runner/.config/gspread/service_account.json'
+2025-08-05 00:19:07 - sheets - ERROR - Error opening worksheet: Google Sheet URL not provided
+2025-08-05 00:19:07 - sheets - ERROR - Error initializing Google Sheets client: Google Sheet URL not provided
+2025-08-05 00:19:07 - flask - ERROR - Automation failed: Google Sheet URL not provided
+2025-08-05 00:19:34 - sheets - ERROR - Error opening worksheet: Google Sheet URL not provided
+2025-08-05 00:19:34 - sheets - ERROR - Error initializing Google Sheets client: Google Sheet URL not provided
+2025-08-05 00:19:34 - flask - ERROR - Automation failed: Google Sheet URL not provided
+2025-08-05 00:19:41 - sheets - ERROR - Error opening worksheet: Google Sheet URL not provided
+2025-08-05 00:19:41 - sheets - ERROR - Error initializing Google Sheets client: Google Sheet URL not provided
+2025-08-05 00:19:41 - flask - ERROR - Automation failed: Google Sheet URL not provided
+2025-08-05 00:19:53 - sheets - ERROR - Error opening worksheet: Google Sheet URL not provided
+2025-08-05 00:19:53 - sheets - ERROR - Error initializing Google Sheets client: Google Sheet URL not provided
+2025-08-05 00:19:53 - flask - ERROR - Automation failed: Google Sheet URL not provided
+2025-08-05 00:22:24 - sheets - ERROR - Error opening worksheet: Google Sheet URL not provided
+2025-08-05 00:22:24 - sheets - ERROR - Error initializing Google Sheets client: Google Sheet URL not provided
+2025-08-05 00:22:24 - flask - ERROR - Automation failed: Google Sheet URL not provided
+2025-08-05 00:22:27 - sheets - ERROR - Error opening worksheet: Google Sheet URL not provided
+2025-08-05 00:22:27 - sheets - ERROR - Error initializing Google Sheets client: Google Sheet URL not provided
+2025-08-05 00:22:27 - flask - ERROR - Automation failed: Google Sheet URL not provided
+2025-08-05 00:24:30 - sheets - ERROR - Error accessing public sheet: 400 Client Error: Bad Request for url: https://doc-0o-54-sheets.googleusercontent.com/export/54bogvaave6cua4cdnls17ksc4/2f2p3gfn2a3v52f1bttppjq0vs/1754353470000/115367410330157801729/*/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI?format=csv&gid=0
+2025-08-05 00:24:39 - sheets - ERROR - Error accessing public sheet: 400 Client Error: Bad Request for url: https://doc-0o-54-sheets.googleusercontent.com/export/54bogvaave6cua4cdnls17ksc4/ud72qgalf1gpvemkijpe5acp64/1754353475000/115367410330157801729/*/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI?format=csv&gid=0
+2025-08-05 00:26:38 - sheets - ERROR - Error accessing public sheet: 400 Client Error: Bad Request for url: https://doc-0o-54-sheets.googleusercontent.com/export/54bogvaave6cua4cdnls17ksc4/upi7l7effjfu0c22qec9f0h8mc/1754353595000/115367410330157801729/*/1i7c3b0x_ySh32BArmMUEo0XSrfiiwBEgRvtNc1pWHEI?format=csv&gid=0
+2025-08-05 00:28:49 - automation - ERROR - Error initializing browser: BrowserType.launch: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Please install them with the following command:      ║
+║                                                      ║
+║     sudo playwright install-deps                     ║
+║                                                      ║
+║ Alternatively, use apt:                              ║
+║     sudo apt-get install libnspr4\                   ║
+║         libnss3\                                     ║
+║         libdbus-1-3\                                 ║
+║         libatk1.0-0t64\                              ║
+║         libatk-bridge2.0-0t64\                       ║
+║         libatspi2.0-0t64\                            ║
+║         libxcomposite1\                              ║
+║         libxdamage1\                                 ║
+║         libxfixes3\                                  ║
+║         libgbm1\                                     ║
+║         libxcb1\                                     ║
+║         libxkbcommon0\                               ║
+║         libasound2t64                                ║
+║                                                      ║
+║ <3 Playwright Team                                   ║
+╚══════════════════════════════════════════════════════╝
+2025-08-05 00:28:49 - automation - ERROR - Fatal error in automation: BrowserType.launch: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Please install them with the following command:      ║
+║                                                      ║
+║     sudo playwright install-deps                     ║
+║                                                      ║
+║ Alternatively, use apt:                              ║
+║     sudo apt-get install libnspr4\                   ║
+║         libnss3\                                     ║
+║         libdbus-1-3\                                 ║
+║         libatk1.0-0t64\                              ║
+║         libatk-bridge2.0-0t64\                       ║
+║         libatspi2.0-0t64\                            ║
+║         libxcomposite1\                              ║
+║         libxdamage1\                                 ║
+║         libxfixes3\                                  ║
+║         libgbm1\                                     ║
+║         libxcb1\                                     ║
+║         libxkbcommon0\                               ║
+║         libasound2t64                                ║
+║                                                      ║
+║ <3 Playwright Team                                   ║
+╚══════════════════════════════════════════════════════╝
+2025-08-05 00:28:49 - automation - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/runner/workspace/automation.py", line 36, in run
+    await self.init_browser()
+  File "/home/runner/workspace/automation.py", line 104, in init_browser
+    self.browser = await playwright.chromium.launch(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/playwright/async_api/_generated.py", line 14457, in launch
+    await self._impl_obj.launch(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/playwright/_impl/_browser_type.py", line 98, in launch
+    await self._channel.send(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: BrowserType.launch: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Please install them with the following command:      ║
+║                                                      ║
+║     sudo playwright install-deps                     ║
+║                                                      ║
+║ Alternatively, use apt:                              ║
+║     sudo apt-get install libnspr4\                   ║
+║         libnss3\                                     ║
+║         libdbus-1-3\                                 ║
+║         libatk1.0-0t64\                              ║
+║         libatk-bridge2.0-0t64\                       ║
+║         libatspi2.0-0t64\                            ║
+║         libxcomposite1\                              ║
+║         libxdamage1\                                 ║
+║         libxfixes3\                                  ║
+║         libgbm1\                                     ║
+║         libxcb1\                                     ║
+║         libxkbcommon0\                               ║
+║         libasound2t64                                ║
+║                                                      ║
+║ <3 Playwright Team                                   ║
+╚══════════════════════════════════════════════════════╝
+
+2025-08-05 00:33:30 - automation - ERROR - Error initializing browser: BrowserType.launch: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Please install them with the following command:      ║
+║                                                      ║
+║     sudo playwright install-deps                     ║
+║                                                      ║
+║ Alternatively, use apt:                              ║
+║     sudo apt-get install libnspr4\                   ║
+║         libnss3\                                     ║
+║         libdbus-1-3\                                 ║
+║         libatk1.0-0t64\                              ║
+║         libatk-bridge2.0-0t64\                       ║
+║         libatspi2.0-0t64\                            ║
+║         libxcomposite1\                              ║
+║         libxdamage1\                                 ║
+║         libxfixes3\                                  ║
+║         libgbm1\                                     ║
+║         libxcb1\                                     ║
+║         libxkbcommon0\                               ║
+║         libasound2t64                                ║
+║                                                      ║
+║ <3 Playwright Team                                   ║
+╚══════════════════════════════════════════════════════╝
+2025-08-05 00:33:30 - automation - ERROR - Fatal error in automation: BrowserType.launch: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Please install them with the following command:      ║
+║                                                      ║
+║     sudo playwright install-deps                     ║
+║                                                      ║
+║ Alternatively, use apt:                              ║
+║     sudo apt-get install libnspr4\                   ║
+║         libnss3\                                     ║
+║         libdbus-1-3\                                 ║
+║         libatk1.0-0t64\                              ║
+║         libatk-bridge2.0-0t64\                       ║
+║         libatspi2.0-0t64\                            ║
+║         libxcomposite1\                              ║
+║         libxdamage1\                                 ║
+║         libxfixes3\                                  ║
+║         libgbm1\                                     ║
+║         libxcb1\                                     ║
+║         libxkbcommon0\                               ║
+║         libasound2t64                                ║
+║                                                      ║
+║ <3 Playwright Team                                   ║
+╚══════════════════════════════════════════════════════╝
+2025-08-05 00:33:30 - automation - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/runner/workspace/automation.py", line 36, in run
+    await self.init_browser()
+  File "/home/runner/workspace/automation.py", line 114, in init_browser
+    self.browser = await playwright.chromium.launch(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/playwright/async_api/_generated.py", line 14457, in launch
+    await self._impl_obj.launch(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/playwright/_impl/_browser_type.py", line 98, in launch
+    await self._channel.send(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: BrowserType.launch: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Please install them with the following command:      ║
+║                                                      ║
+║     sudo playwright install-deps                     ║
+║                                                      ║
+║ Alternatively, use apt:                              ║
+║     sudo apt-get install libnspr4\                   ║
+║         libnss3\                                     ║
+║         libdbus-1-3\                                 ║
+║         libatk1.0-0t64\                              ║
+║         libatk-bridge2.0-0t64\                       ║
+║         libatspi2.0-0t64\                            ║
+║         libxcomposite1\                              ║
+║         libxdamage1\                                 ║
+║         libxfixes3\                                  ║
+║         libgbm1\                                     ║
+║         libxcb1\                                     ║
+║         libxkbcommon0\                               ║
+║         libasound2t64                                ║
+║                                                      ║
+║ <3 Playwright Team                                   ║
+╚══════════════════════════════════════════════════════╝
+
+2025-08-05 00:36:47 - automation - ERROR - Error initializing browser: BrowserType.launch: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Please install them with the following command:      ║
+║                                                      ║
+║     sudo playwright install-deps                     ║
+║                                                      ║
+║ Alternatively, use apt:                              ║
+║     sudo apt-get install libnspr4\                   ║
+║         libnss3\                                     ║
+║         libdbus-1-3\                                 ║
+║         libatk1.0-0t64\                              ║
+║         libatk-bridge2.0-0t64\                       ║
+║         libatspi2.0-0t64\                            ║
+║         libxcomposite1\                              ║
+║         libxdamage1\                                 ║
+║         libxfixes3\                                  ║
+║         libgbm1\                                     ║
+║         libxcb1\                                     ║
+║         libxkbcommon0\                               ║
+║         libasound2t64                                ║
+║                                                      ║
+║ <3 Playwright Team                                   ║
+╚══════════════════════════════════════════════════════╝
+2025-08-05 00:36:47 - automation - ERROR - Fatal error in automation: BrowserType.launch: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Please install them with the following command:      ║
+║                                                      ║
+║     sudo playwright install-deps                     ║
+║                                                      ║
+║ Alternatively, use apt:                              ║
+║     sudo apt-get install libnspr4\                   ║
+║         libnss3\                                     ║
+║         libdbus-1-3\                                 ║
+║         libatk1.0-0t64\                              ║
+║         libatk-bridge2.0-0t64\                       ║
+║         libatspi2.0-0t64\                            ║
+║         libxcomposite1\                              ║
+║         libxdamage1\                                 ║
+║         libxfixes3\                                  ║
+║         libgbm1\                                     ║
+║         libxcb1\                                     ║
+║         libxkbcommon0\                               ║
+║         libasound2t64                                ║
+║                                                      ║
+║ <3 Playwright Team                                   ║
+╚══════════════════════════════════════════════════════╝
+2025-08-05 00:36:47 - automation - ERROR - Traceback: Traceback (most recent call last):
+  File "/home/runner/workspace/automation.py", line 36, in run
+    await self.init_browser()
+  File "/home/runner/workspace/automation.py", line 114, in init_browser
+    self.browser = await playwright.chromium.launch(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/playwright/async_api/_generated.py", line 14457, in launch
+    await self._impl_obj.launch(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/playwright/_impl/_browser_type.py", line 98, in launch
+    await self._channel.send(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: BrowserType.launch: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Please install them with the following command:      ║
+║                                                      ║
+║     sudo playwright install-deps                     ║
+║                                                      ║
+║ Alternatively, use apt:                              ║
+║     sudo apt-get install libnspr4\                   ║
+║         libnss3\                                     ║
+║         libdbus-1-3\                                 ║
+║         libatk1.0-0t64\                              ║
+║         libatk-bridge2.0-0t64\                       ║
+║         libatspi2.0-0t64\                            ║
+║         libxcomposite1\                              ║
+║         libxdamage1\                                 ║
+║         libxfixes3\                                  ║
+║         libgbm1\                                     ║
+║         libxcb1\                                     ║
+║         libxkbcommon0\                               ║
+║         libasound2t64                                ║
+║                                                      ║
+║ <3 Playwright Team                                   ║
+╚══════════════════════════════════════════════════════╝
+
+2025-08-05 00:41:00 - sheets - ERROR - Error initializing Google Sheets client: ('Unused bytes', b"|'u\xc9\xf0\x9e\x10\xe4_\t\xed\x8e\x89\xf0\x9eP\xdc\x9e\x05\xf0\x9fF\xf0\x9e\xc4\xd9\x8e\x89\xf1\x0e")
+2025-08-05 00:43:24 - sheets - ERROR - Error opening worksheet: Google Sheet URL not provided
+2025-08-05 00:43:24 - sheets - ERROR - Error initializing Google Sheets client: Google Sheet URL not provided
+2025-08-05 00:43:24 - flask - ERROR - Error previewing data: Google Sheet URL not provided
+2025-08-05 00:43:31 - sheets - ERROR - Error opening worksheet: Google Sheet URL not provided
+2025-08-05 00:43:31 - sheets - ERROR - Error initializing Google Sheets client: Google Sheet URL not provided
+2025-08-05 00:43:31 - flask - ERROR - Error previewing data: Google Sheet URL not provided
+2025-08-05 01:10:21 - form_automation - ERROR - ❌ Real form submission failed for Amber Johnson
+2025-08-05 01:21:59 - sheets - ERROR - Error opening worksheet: Google Sheet URL not provided
+2025-08-05 01:21:59 - sheets - ERROR - Error initializing Google Sheets client: Google Sheet URL not provided
+2025-08-05 01:27:24 - form_automation - ERROR - ❌ Real form submission failed for pending
+2025-08-05 01:27:24 - automation - ERROR - Row 2: ❌ BOOKING FAILED for pending
+2025-08-05 01:27:32 - form_automation - ERROR - ❌ Real form submission failed for pending
+2025-08-05 01:27:32 - automation - ERROR - Row 3: ❌ BOOKING FAILED for pending
+2025-08-05 01:27:40 - form_automation - ERROR - ❌ Real form submission failed for pending
+2025-08-05 01:27:40 - automation - ERROR - Row 4: ❌ BOOKING FAILED for pending
+2025-08-05 01:27:50 - form_automation - ERROR - ❌ Real form submission failed for Amber Sells the Sierras
+2025-08-05 01:27:50 - automation - ERROR - Row 28: ❌ BOOKING FAILED for Amber Sells the Sierras
+2025-08-05 01:37:09 - sheets - ERROR - Error opening worksheet: Google Sheet URL not provided
+2025-08-05 01:37:09 - sheets - ERROR - Error initializing Google Sheets client: Google Sheet URL not provided

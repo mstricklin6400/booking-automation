@@ -1,0 +1,233 @@
+<!-- Email Configuration Tab Content -->
+<div class="tab-pane fade" id="email-config" role="tabpanel">
+    <div class="row">
+        <div class="col-lg-8">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="card-title">📧 Email Notification Settings</h5>
+                </div>
+                <div class="card-body">
+                    <div class="alert alert-info">
+                        <strong>Configure email notifications:</strong> Get notified when bookings are successful or fail. 
+                        For Gmail, use an App Password instead of your regular password.
+                    </div>
+                    
+                    <form id="email-config-form">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="email-user" class="form-label">Email Address</label>
+                                    <input type="email" class="form-control" id="email-user" placeholder="your-email@gmail.com" required>
+                                    <div class="form-text">Your Gmail or SMTP email address</div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="email-password" class="form-label">App Password</label>
+                                    <input type="password" class="form-control" id="email-password" placeholder="16-character app password" required>
+                                    <div class="form-text">
+                                        <a href="https://support.google.com/accounts/answer/185833" target="_blank">
+                                            How to create Gmail App Password
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="smtp-server" class="form-label">SMTP Server</label>
+                                    <input type="text" class="form-control" id="smtp-server" value="smtp.gmail.com" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="smtp-port" class="form-label">SMTP Port</label>
+                                    <input type="number" class="form-control" id="smtp-port" value="587" required>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="notification-recipients" class="form-label">Notification Recipients</label>
+                            <input type="text" class="form-control" id="notification-recipients" 
+                                   placeholder="email1@example.com, email2@example.com" required>
+                            <div class="form-text">Comma-separated list of email addresses to receive notifications</div>
+                        </div>
+                        
+                        <div class="d-flex gap-2">
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-save"></i> Save Configuration
+                            </button>
+                            <button type="button" class="btn btn-info" id="test-email-btn">
+                                <i class="fas fa-envelope"></i> Send Test Email
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4">
+            <div class="card">
+                <div class="card-header">
+                    <h6 class="card-title">Configuration Status</h6>
+                </div>
+                <div class="card-body">
+                    <div id="email-status">
+                        <div class="text-center">
+                            <div class="spinner-border spinner-border-sm" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                            </div>
+                            <p class="mt-2">Loading email configuration...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card mt-3">
+                <div class="card-header">
+                    <h6 class="card-title">Email Types</h6>
+                </div>
+                <div class="card-body">
+                    <ul class="list-unstyled">
+                        <li class="mb-2">
+                            <i class="fas fa-check-circle text-success"></i>
+                            <strong>Success Notifications:</strong> Sent when bookings are confirmed
+                        </li>
+                        <li class="mb-2">
+                            <i class="fas fa-exclamation-triangle text-warning"></i>
+                            <strong>Failure Notifications:</strong> Sent when bookings fail
+                        </li>
+                        <li class="mb-2">
+                            <i class="fas fa-chart-bar text-info"></i>
+                            <strong>Summary Reports:</strong> Sent after automation runs complete
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+// Email configuration JavaScript
+$(document).ready(function() {
+    loadEmailConfig();
+    
+    // Load current email configuration
+    function loadEmailConfig() {
+        $.get('/api/email/config')
+            .done(function(data) {
+                $('#email-user').val(data.email_user !== 'Not set' ? data.email_user : '');
+                $('#smtp-server').val(data.smtp_server);
+                $('#smtp-port').val(data.smtp_port);
+                $('#notification-recipients').val(data.recipients.join(', '));
+                
+                updateEmailStatus(data);
+            })
+            .fail(function(xhr) {
+                console.error('Failed to load email config:', xhr.responseText);
+                updateEmailStatus({configured: false, error: 'Failed to load configuration'});
+            });
+    }
+    
+    // Update email status display
+    function updateEmailStatus(data) {
+        let statusHtml = '';
+        
+        if (data.configured) {
+            statusHtml = `
+                <div class="alert alert-success">
+                    <i class="fas fa-check-circle"></i>
+                    <strong>Email Configured</strong>
+                    <p class="mb-0 mt-1">
+                        Server: ${data.smtp_server}:${data.smtp_port}<br>
+                        Recipients: ${data.recipients.length} email(s)
+                    </p>
+                </div>
+            `;
+        } else {
+            statusHtml = `
+                <div class="alert alert-warning">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <strong>Email Not Configured</strong>
+                    <p class="mb-0 mt-1">Fill out the form to enable email notifications</p>
+                </div>
+            `;
+        }
+        
+        $('#email-status').html(statusHtml);
+    }
+    
+    // Save email configuration
+    $('#email-config-form').submit(function(e) {
+        e.preventDefault();
+        
+        const configData = {
+            email_user: $('#email-user').val(),
+            email_password: $('#email-password').val(),
+            smtp_server: $('#smtp-server').val(),
+            smtp_port: $('#smtp-port').val(),
+            notification_recipients: $('#notification-recipients').val()
+        };
+        
+        $.ajax({
+            url: '/api/email/config',
+            method: 'POST',
+            contentType: 'application/json',
+            data: JSON.stringify(configData),
+            success: function(data) {
+                showAlert('Email configuration saved successfully!', 'success');
+                loadEmailConfig(); // Reload to update status
+            },
+            error: function(xhr) {
+                showAlert('Error saving email configuration: ' + (xhr.responseJSON?.error || 'Unknown error'), 'danger');
+            }
+        });
+    });
+    
+    // Test email functionality
+    $('#test-email-btn').click(function() {
+        const btn = $(this);
+        const originalText = btn.html();
+        
+        btn.prop('disabled', true).html('<i class="fas fa-spinner fa-spin"></i> Sending...');
+        
+        $.ajax({
+            url: '/api/email/test',
+            method: 'POST',
+            contentType: 'application/json',
+            data: JSON.stringify({}),
+            success: function(data) {
+                showAlert('Test email sent successfully! Check your inbox.', 'success');
+            },
+            error: function(xhr) {
+                showAlert('Test email failed: ' + (xhr.responseJSON?.error || 'Unknown error'), 'danger');
+            },
+            complete: function() {
+                btn.prop('disabled', false).html(originalText);
+            }
+        });
+    });
+    
+    // Helper function to show alerts
+    function showAlert(message, type) {
+        const alertHtml = `
+            <div class="alert alert-${type} alert-dismissible fade show" role="alert">
+                ${message}
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            </div>
+        `;
+        
+        // Insert alert at the top of the email config form
+        $('#email-config .card-body').prepend(alertHtml);
+        
+        // Auto-dismiss after 5 seconds
+        setTimeout(function() {
+            $('.alert').fadeOut();
+        }, 5000);
+    }
+});
+</script>
