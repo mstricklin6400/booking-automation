@@ -263,7 +263,7 @@ def run_automation_thread():
         # Log current config for debugging
         logger.info(f"Starting automation with Google Sheet URL: {config.GOOGLE_SHEET_URL}")
         
-               # Use HTTP-based automation (no browser required)
+                      # Use HTTP-based automation (no browser required)
         from automation import BookingAutomation
         booking_automation = BookingAutomation(config)
         stats = loop.run_until_complete(booking_automation.run())
